@@ -9,19 +9,10 @@ import SwiftUI
 
 struct StoryView: View {
     var body: some View {
-        VStack {
-            Text("My Story")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding()
-            
-            ScrollView {
-                Text(information.story)
-                    .font(.body)
-                    .padding()
-            }
+        NavigationView {
+            StoryPageView(story: story, pageIndex: 0)
         }
-        .padding([.top, .bottom], 50)
+        .navigationViewStyle(.stack)
     }
 }
 
