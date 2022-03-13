@@ -1,5 +1,5 @@
 //
-//  EventLow.swift
+//  EventRow.swift
 //  DatePlanner
 //
 //  Created by kimhyungyu on 2022/03/13.
@@ -7,14 +7,37 @@
 
 import SwiftUI
 
-struct EventLow: View {
+struct EventRow: View {
+    let event: Event
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName: event.symbol)
+                .sfSymbolStyling()
+                .foregroundStyle(event.color)
+            
+            VStack(alignment: .leading, spacing: 5) {
+                Text(event.title)
+                    .fontWeight(.bold)
+
+                Text(event.date.formatted(date: .abbreviated, time: .shortened))
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+            }
+            
+            if event.isComplete {
+                Spacer()
+                Image(systemName: "checkmark")
+                    .foregroundStyle(.secondary)
+            }
+            
+        }
+        .badge(event.remainingTaskCount)
     }
 }
 
-struct EventLow_Previews: PreviewProvider {
+struct EventRow_Previews: PreviewProvider {
     static var previews: some View {
-        EventLow()
+        EventRow(event: Event.example)
     }
 }
