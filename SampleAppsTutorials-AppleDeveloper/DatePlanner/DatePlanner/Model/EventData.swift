@@ -5,7 +5,7 @@
 //  Created by kimhyungyu on 2022/03/13.
 //
 
-import Foundation
+import SwiftUI
 
 class EventData: ObservableObject {
     // notifiy all observers and update their views whenever the events array changes.
