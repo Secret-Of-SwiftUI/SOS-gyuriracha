@@ -14,6 +14,14 @@
 		F8C365C627DDA2B2000AA9BD /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C527DDA2B2000AA9BD /* EventTask.swift */; };
 		F8C365C827DDA30F000AA9BD /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C727DDA30F000AA9BD /* EventData.swift */; };
 		F8C365CA27DDA7DA000AA9BD /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C927DDA7DA000AA9BD /* EventList.swift */; };
+		F8C365CC27DDBB4C000AA9BD /* ColorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365CB27DDBB4C000AA9BD /* ColorOptions.swift */; };
+		F8C365CE27DDBB75000AA9BD /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365CD27DDBB75000AA9BD /* EventSymbols.swift */; };
+		F8C365D227DDBBBA000AA9BD /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365D127DDBBBA000AA9BD /* EventDetail.swift */; };
+		F8C365D427DDBBD2000AA9BD /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365D327DDBBD2000AA9BD /* EventEditor.swift */; };
+		F8C365D627DDBBF6000AA9BD /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365D527DDBBF6000AA9BD /* EventRow.swift */; };
+		F8C365D827DDBC59000AA9BD /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365D727DDBC59000AA9BD /* SFSymbolStyling.swift */; };
+		F8C365DA27DDBC85000AA9BD /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365D927DDBC85000AA9BD /* SymbolPicker.swift */; };
+		F8C365DC27DDBC9C000AA9BD /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365DB27DDBC9C000AA9BD /* TaskRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +33,14 @@
 		F8C365C527DDA2B2000AA9BD /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
 		F8C365C727DDA30F000AA9BD /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		F8C365C927DDA7DA000AA9BD /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		F8C365CB27DDBB4C000AA9BD /* ColorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptions.swift; sourceTree = "<group>"; };
+		F8C365CD27DDBB75000AA9BD /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		F8C365D127DDBBBA000AA9BD /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		F8C365D327DDBBD2000AA9BD /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		F8C365D527DDBBF6000AA9BD /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		F8C365D727DDBC59000AA9BD /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		F8C365D927DDBC85000AA9BD /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		F8C365DB27DDBC9C000AA9BD /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 				F8C365B327DD90B7000AA9BD /* DatePlannerApp.swift */,
 				F8C365C427DDA1F5000AA9BD /* View */,
 				F8C365C327DDA1F1000AA9BD /* Model */,
+				F8C365D727DDBC59000AA9BD /* SFSymbolStyling.swift */,
 				F8C365B727DD90B9000AA9BD /* Assets.xcassets */,
 				F8C365B927DD90B9000AA9BD /* Preview Content */,
 			);
@@ -77,9 +94,11 @@
 		F8C365C327DDA1F1000AA9BD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F8C365CD27DDBB75000AA9BD /* EventSymbols.swift */,
 				F8C365C127DDA1EA000AA9BD /* Event.swift */,
 				F8C365C527DDA2B2000AA9BD /* EventTask.swift */,
 				F8C365C727DDA30F000AA9BD /* EventData.swift */,
+				F8C365CB27DDBB4C000AA9BD /* ColorOptions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				F8C365C927DDA7DA000AA9BD /* EventList.swift */,
+				F8C365D127DDBBBA000AA9BD /* EventDetail.swift */,
+				F8C365D327DDBBD2000AA9BD /* EventEditor.swift */,
+				F8C365D527DDBBF6000AA9BD /* EventRow.swift */,
+				F8C365D927DDBC85000AA9BD /* SymbolPicker.swift */,
+				F8C365DB27DDBC9C000AA9BD /* TaskRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,11 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C365CE27DDBB75000AA9BD /* EventSymbols.swift in Sources */,
+				F8C365D627DDBBF6000AA9BD /* EventRow.swift in Sources */,
+				F8C365D227DDBBBA000AA9BD /* EventDetail.swift in Sources */,
+				F8C365D427DDBBD2000AA9BD /* EventEditor.swift in Sources */,
 				F8C365C627DDA2B2000AA9BD /* EventTask.swift in Sources */,
+				F8C365DC27DDBC9C000AA9BD /* TaskRow.swift in Sources */,
 				F8C365C227DDA1EA000AA9BD /* Event.swift in Sources */,
+				F8C365CC27DDBB4C000AA9BD /* ColorOptions.swift in Sources */,
 				F8C365C827DDA30F000AA9BD /* EventData.swift in Sources */,
 				F8C365CA27DDA7DA000AA9BD /* EventList.swift in Sources */,
+				F8C365DA27DDBC85000AA9BD /* SymbolPicker.swift in Sources */,
 				F8C365B427DD90B7000AA9BD /* DatePlannerApp.swift in Sources */,
+				F8C365D827DDBC59000AA9BD /* SFSymbolStyling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
