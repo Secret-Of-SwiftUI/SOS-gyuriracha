@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// pick symbol of Event.
 struct SymbolPicker: View {
     @Binding var event: Event
     @State private var selectedColor: Color = ColorOptions.default
