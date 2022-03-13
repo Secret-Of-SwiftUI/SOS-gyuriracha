@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F8C365B427DD90B7000AA9BD /* DatePlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365B327DD90B7000AA9BD /* DatePlannerApp.swift */; };
-		F8C365B627DD90B7000AA9BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365B527DD90B7000AA9BD /* ContentView.swift */; };
 		F8C365B827DD90B9000AA9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C365B727DD90B9000AA9BD /* Assets.xcassets */; };
 		F8C365BB27DD90B9000AA9BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C365BA27DD90B9000AA9BD /* Preview Assets.xcassets */; };
+		F8C365C227DDA1EA000AA9BD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C127DDA1EA000AA9BD /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8C365B027DD90B7000AA9BD /* DatePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C365B327DD90B7000AA9BD /* DatePlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerApp.swift; sourceTree = "<group>"; };
-		F8C365B527DD90B7000AA9BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8C365B727DD90B9000AA9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8C365BA27DD90B9000AA9BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8C365C127DDA1EA000AA9BD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				F8C365B327DD90B7000AA9BD /* DatePlannerApp.swift */,
-				F8C365B527DD90B7000AA9BD /* ContentView.swift */,
+				F8C365C427DDA1F5000AA9BD /* View */,
+				F8C365C327DDA1F1000AA9BD /* Model */,
 				F8C365B727DD90B9000AA9BD /* Assets.xcassets */,
 				F8C365B927DD90B9000AA9BD /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				F8C365BA27DD90B9000AA9BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8C365C327DDA1F1000AA9BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8C365C127DDA1EA000AA9BD /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8C365C427DDA1F5000AA9BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8C365B627DD90B7000AA9BD /* ContentView.swift in Sources */,
+				F8C365C227DDA1EA000AA9BD /* Event.swift in Sources */,
 				F8C365B427DD90B7000AA9BD /* DatePlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
