@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Date Planner's list row view.
 struct EventRow: View {
     let event: Event
     

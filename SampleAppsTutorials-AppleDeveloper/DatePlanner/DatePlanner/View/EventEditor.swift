@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Date Planner's navigation link view.
 struct EventEditor: View {
     @Binding var event: Event
     var isNew = false
