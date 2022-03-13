@@ -13,6 +13,7 @@
 		F8C365C227DDA1EA000AA9BD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C127DDA1EA000AA9BD /* Event.swift */; };
 		F8C365C627DDA2B2000AA9BD /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C527DDA2B2000AA9BD /* EventTask.swift */; };
 		F8C365C827DDA30F000AA9BD /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C727DDA30F000AA9BD /* EventData.swift */; };
+		F8C365CA27DDA7DA000AA9BD /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C365C927DDA7DA000AA9BD /* EventList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F8C365C127DDA1EA000AA9BD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		F8C365C527DDA2B2000AA9BD /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
 		F8C365C727DDA30F000AA9BD /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		F8C365C927DDA7DA000AA9BD /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		F8C365C427DDA1F5000AA9BD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F8C365C927DDA7DA000AA9BD /* EventList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				F8C365C627DDA2B2000AA9BD /* EventTask.swift in Sources */,
 				F8C365C227DDA1EA000AA9BD /* Event.swift in Sources */,
 				F8C365C827DDA30F000AA9BD /* EventData.swift in Sources */,
+				F8C365CA27DDA7DA000AA9BD /* EventList.swift in Sources */,
 				F8C365B427DD90B7000AA9BD /* DatePlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
