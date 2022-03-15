@@ -13,6 +13,7 @@
 		F8F52E4027DFA5E500329218 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F52E3F27DFA5E500329218 /* Preview Assets.xcassets */; };
 		F8F52E4727DFA63000329218 /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F52E4627DFA63000329218 /* SymbolGrid.swift */; };
 		F8F52E4F27DFB2FA00329218 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F52E4E27DFB2FA00329218 /* ItemDetail.swift */; };
+		F8F52E5127E06D0A00329218 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F52E5027E06D0A00329218 /* SymbolPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F8F52E3F27DFA5E500329218 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8F52E4627DFA63000329218 /* SymbolGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
 		F8F52E4E27DFB2FA00329218 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		F8F52E5027E06D0A00329218 /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				F8F52E4627DFA63000329218 /* SymbolGrid.swift */,
 				F8F52E3A27DFA5E400329218 /* ContentView.swift */,
 				F8F52E4E27DFB2FA00329218 /* ItemDetail.swift */,
+				F8F52E5027E06D0A00329218 /* SymbolPicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F52E3B27DFA5E400329218 /* ContentView.swift in Sources */,
+				F8F52E5127E06D0A00329218 /* SymbolPicker.swift in Sources */,
 				F8F52E4F27DFB2FA00329218 /* ItemDetail.swift in Sources */,
 				F8F52E3927DFA5E400329218 /* SymbolGridApp.swift in Sources */,
 				F8F52E4727DFA63000329218 /* SymbolGrid.swift in Sources */,
