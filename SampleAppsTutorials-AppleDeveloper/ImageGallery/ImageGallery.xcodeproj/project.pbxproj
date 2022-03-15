@@ -14,6 +14,28 @@
 		F8688DF727E0964000BD498D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688DF627E0964000BD498D /* DataModel.swift */; };
 		F8688DF927E0964C00BD498D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688DF827E0964C00BD498D /* GridView.swift */; };
 		F8688DFB27E0969C00BD498D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8688DFA27E0969C00BD498D /* Item.swift */; };
+		F8688E1327E09E0400BD498D /* groundSquirrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688DFD27E09E0400BD498D /* groundSquirrel.jpg */; };
+		F8688E1427E09E0400BD498D /* yellowBelliedMarmot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688DFE27E09E0400BD498D /* yellowBelliedMarmot.jpg */; };
+		F8688E1527E09E0400BD498D /* bullTuleElkAndTwoFemales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688DFF27E09E0400BD498D /* bullTuleElkAndTwoFemales.jpg */; };
+		F8688E1627E09E0400BD498D /* soaringTheRainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0027E09E0400BD498D /* soaringTheRainbow.jpg */; };
+		F8688E1727E09E0400BD498D /* harborSealPup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0127E09E0400BD498D /* harborSealPup.jpg */; };
+		F8688E1827E09E0400BD498D /* grizzlyCubs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0227E09E0400BD498D /* grizzlyCubs.jpg */; };
+		F8688E1927E09E0400BD498D /* redTailedHawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0327E09E0400BD498D /* redTailedHawk.jpg */; };
+		F8688E1A27E09E0400BD498D /* doubleRainbowLowerMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0427E09E0400BD498D /* doubleRainbowLowerMammoth.jpg */; };
+		F8688E1B27E09E0400BD498D /* newGrowthOfAntlers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0527E09E0400BD498D /* newGrowthOfAntlers.jpg */; };
+		F8688E1C27E09E0400BD498D /* harborSeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0627E09E0400BD498D /* harborSeal.jpg */; };
+		F8688E1D27E09E0400BD498D /* sunriseAtGrottoGeyser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0727E09E0400BD498D /* sunriseAtGrottoGeyser.jpg */; };
+		F8688E1E27E09E0400BD498D /* owlsAtMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0827E09E0400BD498D /* owlsAtMammoth.jpg */; };
+		F8688E1F27E09E0400BD498D /* heartSpring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0927E09E0400BD498D /* heartSpring.jpg */; };
+		F8688E2027E09E0400BD498D /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0A27E09E0400BD498D /* bobcat.jpg */; };
+		F8688E2127E09E0400BD498D /* doubleRainbowYellowstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0B27E09E0400BD498D /* doubleRainbowYellowstone.jpg */; };
+		F8688E2227E09E0400BD498D /* bullElk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0C27E09E0400BD498D /* bullElk.jpg */; };
+		F8688E2327E09E0400BD498D /* coyoteAndBison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0D27E09E0400BD498D /* coyoteAndBison.jpg */; };
+		F8688E2427E09E0400BD498D /* riverOtter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0E27E09E0400BD498D /* riverOtter.jpg */; };
+		F8688E2527E09E0400BD498D /* bullElkSparring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E0F27E09E0400BD498D /* bullElkSparring.jpg */; };
+		F8688E2627E09E0400BD498D /* grizzly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E1027E09E0400BD498D /* grizzly.jpg */; };
+		F8688E2727E09E0400BD498D /* towerCreekBASIN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E1127E09E0400BD498D /* towerCreekBASIN.jpg */; };
+		F8688E2827E09E0400BD498D /* rainbowAndBadlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8688E1227E09E0400BD498D /* rainbowAndBadlands.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +47,28 @@
 		F8688DF627E0964000BD498D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		F8688DF827E0964C00BD498D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		F8688DFA27E0969C00BD498D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F8688DFD27E09E0400BD498D /* groundSquirrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groundSquirrel.jpg; sourceTree = "<group>"; };
+		F8688DFE27E09E0400BD498D /* yellowBelliedMarmot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowBelliedMarmot.jpg; sourceTree = "<group>"; };
+		F8688DFF27E09E0400BD498D /* bullTuleElkAndTwoFemales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullTuleElkAndTwoFemales.jpg; sourceTree = "<group>"; };
+		F8688E0027E09E0400BD498D /* soaringTheRainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soaringTheRainbow.jpg; sourceTree = "<group>"; };
+		F8688E0127E09E0400BD498D /* harborSealPup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSealPup.jpg; sourceTree = "<group>"; };
+		F8688E0227E09E0400BD498D /* grizzlyCubs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzlyCubs.jpg; sourceTree = "<group>"; };
+		F8688E0327E09E0400BD498D /* redTailedHawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redTailedHawk.jpg; sourceTree = "<group>"; };
+		F8688E0427E09E0400BD498D /* doubleRainbowLowerMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowLowerMammoth.jpg; sourceTree = "<group>"; };
+		F8688E0527E09E0400BD498D /* newGrowthOfAntlers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newGrowthOfAntlers.jpg; sourceTree = "<group>"; };
+		F8688E0627E09E0400BD498D /* harborSeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSeal.jpg; sourceTree = "<group>"; };
+		F8688E0727E09E0400BD498D /* sunriseAtGrottoGeyser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunriseAtGrottoGeyser.jpg; sourceTree = "<group>"; };
+		F8688E0827E09E0400BD498D /* owlsAtMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owlsAtMammoth.jpg; sourceTree = "<group>"; };
+		F8688E0927E09E0400BD498D /* heartSpring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heartSpring.jpg; sourceTree = "<group>"; };
+		F8688E0A27E09E0400BD498D /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
+		F8688E0B27E09E0400BD498D /* doubleRainbowYellowstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowYellowstone.jpg; sourceTree = "<group>"; };
+		F8688E0C27E09E0400BD498D /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
+		F8688E0D27E09E0400BD498D /* coyoteAndBison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyoteAndBison.jpg; sourceTree = "<group>"; };
+		F8688E0E27E09E0400BD498D /* riverOtter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riverOtter.jpg; sourceTree = "<group>"; };
+		F8688E0F27E09E0400BD498D /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
+		F8688E1027E09E0400BD498D /* grizzly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzly.jpg; sourceTree = "<group>"; };
+		F8688E1127E09E0400BD498D /* towerCreekBASIN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = towerCreekBASIN.jpg; sourceTree = "<group>"; };
+		F8688E1227E09E0400BD498D /* rainbowAndBadlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowAndBadlands.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +101,7 @@
 		F8688DE527E08B6100BD498D /* ImageGallery */ = {
 			isa = PBXGroup;
 			children = (
+				F8688DFC27E09E0400BD498D /* Resources */,
 				F8688DF427E0949F00BD498D /* View */,
 				F8688DF527E094A300BD498D /* Model */,
 				F8688DE627E08B6100BD498D /* ImageGalleryApp.swift */,
@@ -90,6 +135,35 @@
 				F8688DFA27E0969C00BD498D /* Item.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F8688DFC27E09E0400BD498D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8688DFD27E09E0400BD498D /* groundSquirrel.jpg */,
+				F8688DFE27E09E0400BD498D /* yellowBelliedMarmot.jpg */,
+				F8688DFF27E09E0400BD498D /* bullTuleElkAndTwoFemales.jpg */,
+				F8688E0027E09E0400BD498D /* soaringTheRainbow.jpg */,
+				F8688E0127E09E0400BD498D /* harborSealPup.jpg */,
+				F8688E0227E09E0400BD498D /* grizzlyCubs.jpg */,
+				F8688E0327E09E0400BD498D /* redTailedHawk.jpg */,
+				F8688E0427E09E0400BD498D /* doubleRainbowLowerMammoth.jpg */,
+				F8688E0527E09E0400BD498D /* newGrowthOfAntlers.jpg */,
+				F8688E0627E09E0400BD498D /* harborSeal.jpg */,
+				F8688E0727E09E0400BD498D /* sunriseAtGrottoGeyser.jpg */,
+				F8688E0827E09E0400BD498D /* owlsAtMammoth.jpg */,
+				F8688E0927E09E0400BD498D /* heartSpring.jpg */,
+				F8688E0A27E09E0400BD498D /* bobcat.jpg */,
+				F8688E0B27E09E0400BD498D /* doubleRainbowYellowstone.jpg */,
+				F8688E0C27E09E0400BD498D /* bullElk.jpg */,
+				F8688E0D27E09E0400BD498D /* coyoteAndBison.jpg */,
+				F8688E0E27E09E0400BD498D /* riverOtter.jpg */,
+				F8688E0F27E09E0400BD498D /* bullElkSparring.jpg */,
+				F8688E1027E09E0400BD498D /* grizzly.jpg */,
+				F8688E1127E09E0400BD498D /* towerCreekBASIN.jpg */,
+				F8688E1227E09E0400BD498D /* rainbowAndBadlands.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +224,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8688E1627E09E0400BD498D /* soaringTheRainbow.jpg in Resources */,
+				F8688E1327E09E0400BD498D /* groundSquirrel.jpg in Resources */,
+				F8688E1F27E09E0400BD498D /* heartSpring.jpg in Resources */,
+				F8688E2427E09E0400BD498D /* riverOtter.jpg in Resources */,
+				F8688E1527E09E0400BD498D /* bullTuleElkAndTwoFemales.jpg in Resources */,
+				F8688E2027E09E0400BD498D /* bobcat.jpg in Resources */,
+				F8688E2327E09E0400BD498D /* coyoteAndBison.jpg in Resources */,
+				F8688E2527E09E0400BD498D /* bullElkSparring.jpg in Resources */,
+				F8688E2227E09E0400BD498D /* bullElk.jpg in Resources */,
+				F8688E1E27E09E0400BD498D /* owlsAtMammoth.jpg in Resources */,
+				F8688E1B27E09E0400BD498D /* newGrowthOfAntlers.jpg in Resources */,
+				F8688E2627E09E0400BD498D /* grizzly.jpg in Resources */,
+				F8688E1D27E09E0400BD498D /* sunriseAtGrottoGeyser.jpg in Resources */,
+				F8688E2727E09E0400BD498D /* towerCreekBASIN.jpg in Resources */,
+				F8688E1927E09E0400BD498D /* redTailedHawk.jpg in Resources */,
 				F8688DEE27E08B6200BD498D /* Preview Assets.xcassets in Resources */,
+				F8688E2127E09E0400BD498D /* doubleRainbowYellowstone.jpg in Resources */,
 				F8688DEB27E08B6200BD498D /* Assets.xcassets in Resources */,
+				F8688E1427E09E0400BD498D /* yellowBelliedMarmot.jpg in Resources */,
+				F8688E2827E09E0400BD498D /* rainbowAndBadlands.jpg in Resources */,
+				F8688E1C27E09E0400BD498D /* harborSeal.jpg in Resources */,
+				F8688E1A27E09E0400BD498D /* doubleRainbowLowerMammoth.jpg in Resources */,
+				F8688E1827E09E0400BD498D /* grizzlyCubs.jpg in Resources */,
+				F8688E1727E09E0400BD498D /* harborSealPup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
