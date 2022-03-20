@@ -12,11 +12,13 @@ struct MemeCreatorApp: App {
     @StateObject private var fetcher = PandaCollectionFetcher()
     
     var body: some Scene {
-        NavigationView {
-            MemeCreator()
-                .environmentObject(fetcher)
-            
+        WindowGroup {
+            NavigationView {
+                MemeCreator()
+                    .environmentObject(fetcher)
+
+            }
+            .navigationViewStyle(.stack)
         }
-        .navigationViewStyle(.stack)
     }
 }
