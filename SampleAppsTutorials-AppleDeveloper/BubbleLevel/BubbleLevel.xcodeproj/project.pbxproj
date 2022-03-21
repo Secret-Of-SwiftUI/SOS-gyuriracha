@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F88FCAB427E826F5003A229E /* BubbleLevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAB327E826F5003A229E /* BubbleLevelApp.swift */; };
-		F88FCAB627E826F5003A229E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAB527E826F5003A229E /* ContentView.swift */; };
 		F88FCAB827E826F6003A229E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88FCAB727E826F6003A229E /* Assets.xcassets */; };
 		F88FCABB27E826F6003A229E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88FCABA27E826F6003A229E /* Preview Assets.xcassets */; };
 		F88FCAC227E82D19003A229E /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAC127E82D19003A229E /* MotionDetector.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		F88FCAB027E826F5003A229E /* BubbleLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88FCAB327E826F5003A229E /* BubbleLevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevelApp.swift; sourceTree = "<group>"; };
-		F88FCAB527E826F5003A229E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F88FCAB727E826F6003A229E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88FCABA27E826F6003A229E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F88FCAC127E82D19003A229E /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				F88FCAC727E857C7003A229E /* Double+.swift */,
 				F88FCAC327E82D1E003A229E /* View */,
 				F88FCAC127E82D19003A229E /* MotionDetector.swift */,
-				F88FCAB527E826F5003A229E /* ContentView.swift */,
 				F88FCAB727E826F6003A229E /* Assets.xcassets */,
 				F88FCAB927E826F6003A229E /* Preview Content */,
 			);
@@ -161,7 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F88FCACC27E8626D003A229E /* LevelView.swift in Sources */,
-				F88FCAB627E826F5003A229E /* ContentView.swift in Sources */,
 				F88FCAC627E856AF003A229E /* OrientationDataView.swift in Sources */,
 				F88FCACA27E85A45003A229E /* BubbleLevel.swift in Sources */,
 				F88FCAB427E826F5003A229E /* BubbleLevelApp.swift in Sources */,
