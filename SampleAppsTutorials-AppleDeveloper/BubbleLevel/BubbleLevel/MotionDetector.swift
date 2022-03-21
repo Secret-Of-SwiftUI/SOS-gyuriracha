@@ -67,7 +67,8 @@ class MotionDetector: ObservableObject {
         }
         orientationObserver = nil
     }
-
+    
+// This deinitializer runs when a MotionDetector instance is about to go away.
     deinit {
         stop()
     }
