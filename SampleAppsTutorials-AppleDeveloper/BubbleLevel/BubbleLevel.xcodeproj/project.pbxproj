@@ -15,6 +15,7 @@
 		F88FCAC627E856AF003A229E /* OrientationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAC527E856AF003A229E /* OrientationDataView.swift */; };
 		F88FCAC827E857C7003A229E /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAC727E857C7003A229E /* Double+.swift */; };
 		F88FCACA27E85A45003A229E /* BubbleLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAC927E85A45003A229E /* BubbleLevel.swift */; };
+		F88FCACC27E8626D003A229E /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCACB27E8626D003A229E /* LevelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F88FCAC527E856AF003A229E /* OrientationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationDataView.swift; sourceTree = "<group>"; };
 		F88FCAC727E857C7003A229E /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		F88FCAC927E85A45003A229E /* BubbleLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevel.swift; sourceTree = "<group>"; };
+		F88FCACB27E8626D003A229E /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 			children = (
 				F88FCAB327E826F5003A229E /* BubbleLevelApp.swift */,
 				F88FCAC727E857C7003A229E /* Double+.swift */,
-				F88FCAC427E82D22003A229E /* Model */,
 				F88FCAC327E82D1E003A229E /* View */,
 				F88FCAC127E82D19003A229E /* MotionDetector.swift */,
 				F88FCAB527E826F5003A229E /* ContentView.swift */,
@@ -84,15 +85,9 @@
 			children = (
 				F88FCAC527E856AF003A229E /* OrientationDataView.swift */,
 				F88FCAC927E85A45003A229E /* BubbleLevel.swift */,
+				F88FCACB27E8626D003A229E /* LevelView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		F88FCAC427E82D22003A229E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88FCACC27E8626D003A229E /* LevelView.swift in Sources */,
 				F88FCAB627E826F5003A229E /* ContentView.swift in Sources */,
 				F88FCAC627E856AF003A229E /* OrientationDataView.swift in Sources */,
 				F88FCACA27E85A45003A229E /* BubbleLevel.swift in Sources */,
