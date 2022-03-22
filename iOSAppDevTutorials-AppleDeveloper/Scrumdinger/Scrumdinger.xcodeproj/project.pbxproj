@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F823019927E98E9300C4F21B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F823019827E98E9300C4F21B /* Theme.swift */; };
 		F82301CE27E9A36B00C4F21B /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82301CD27E9A36B00C4F21B /* DailyScrum.swift */; };
+		F82301D027E9AF0400C4F21B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82301CF27E9AF0400C4F21B /* CardView.swift */; };
 		F88FCADA27E863EE003A229E /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCAD927E863EE003A229E /* ScrumdingerApp.swift */; };
 		F88FCADC27E863EE003A229E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCADB27E863EE003A229E /* MeetingView.swift */; };
 		F88FCADE27E863EF003A229E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88FCADD27E863EF003A229E /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		F823019827E98E9300C4F21B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F82301CD27E9A36B00C4F21B /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		F82301CF27E9AF0400C4F21B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F88FCAD627E863EE003A229E /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88FCAD927E863EE003A229E /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		F88FCADB27E863EE003A229E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 		F86C2C0527E87C6B006A75BC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F82301CF27E9AF0400C4F21B /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				F823019927E98E9300C4F21B /* Theme.swift in Sources */,
 				F88FCADC27E863EE003A229E /* MeetingView.swift in Sources */,
 				F88FCADA27E863EE003A229E /* ScrumdingerApp.swift in Sources */,
+				F82301D027E9AF0400C4F21B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
