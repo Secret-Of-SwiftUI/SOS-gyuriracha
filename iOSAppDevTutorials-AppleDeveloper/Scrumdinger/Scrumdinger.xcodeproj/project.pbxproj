@@ -87,8 +87,8 @@
 		F88FCAD827E863EE003A229E /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				F82301D127E9BBAE00C4F21B /* Protocol */,
 				F88FCAD927E863EE003A229E /* ScrumdingerApp.swift */,
+				F82301D127E9BBAE00C4F21B /* Protocol */,
 				F86C2C0627E87C70006A75BC /* Models */,
 				F86C2C0527E87C6B006A75BC /* View */,
 				F88FCADB27E863EE003A229E /* MeetingView.swift */,
