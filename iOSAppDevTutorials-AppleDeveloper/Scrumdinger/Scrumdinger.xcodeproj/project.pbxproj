@@ -20,6 +20,7 @@
 		F88FCADC27E863EE003A229E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FCADB27E863EE003A229E /* MeetingView.swift */; };
 		F88FCADE27E863EF003A229E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88FCADD27E863EF003A229E /* Assets.xcassets */; };
 		F88FCAE127E863EF003A229E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88FCAE027E863EF003A229E /* Preview Assets.xcassets */; };
+		F8F72BDA27F9811E001CC38B /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F72BD927F9811E001CC38B /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		F88FCADB27E863EE003A229E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		F88FCADD27E863EF003A229E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88FCAE027E863EF003A229E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8F72BD927F9811E001CC38B /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				F82301D827EB003D00C4F21B /* DetailEditView.swift */,
 				F82301DA27EB0E7A00C4F21B /* ThemeView.swift */,
 				F82301DC27EB0FC100C4F21B /* ThemePicker.swift */,
+				F8F72BD927F9811E001CC38B /* MeetingHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F72BDA27F9811E001CC38B /* MeetingHeaderView.swift in Sources */,
 				F82301DD27EB0FC100C4F21B /* ThemePicker.swift in Sources */,
 				F82301CE27E9A36B00C4F21B /* DailyScrum.swift in Sources */,
 				F82301D727EABFC500C4F21B /* DetailView.swift in Sources */,
