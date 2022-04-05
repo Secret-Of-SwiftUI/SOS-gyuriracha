@@ -8,7 +8,7 @@
 import Foundation
 
 struct DailyScrum: Identifiable {
-    var id: UUID
+    let id: UUID
     var title: String
     var attendees: [Attendee]
     var lengthInMinutes: Int
@@ -34,7 +34,6 @@ extension DailyScrum {
         }
     }
     
-    // By making Data a nested type, you keep DailyScrum.Data distinct from the Data structure defined in the Foundation framework.
     struct Data {
         var title: String = ""
         var attendees: [Attendee] = []
@@ -47,6 +46,14 @@ extension DailyScrum {
     }
     
     mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
+    }
+    
+    init(data: Data) {
+        id = UUID()
         title = data.title
         attendees = data.attendees
         lengthInMinutes = Int(data.lengthInMinutes)
