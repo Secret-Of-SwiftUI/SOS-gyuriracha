@@ -27,6 +27,7 @@
 		F8F72BE327FC202A001CC38B /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = F8F72BE227FC202A001CC38B /* ding.wav */; };
 		F8F72BE527FC209B001CC38B /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F72BE427FC209B001CC38B /* AVPlayer+Ding.swift */; };
 		F8F72BE727FC2928001CC38B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F72BE627FC2928001CC38B /* History.swift */; };
+		F8F72BEB27FC6B3B001CC38B /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F72BEA27FC6B3B001CC38B /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		F8F72BE227FC202A001CC38B /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		F8F72BE427FC209B001CC38B /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		F8F72BE627FC2928001CC38B /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		F8F72BEA27FC6B3B001CC38B /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				F823019827E98E9300C4F21B /* Theme.swift */,
 				F82301CD27E9A36B00C4F21B /* DailyScrum.swift */,
 				F8F72BE627FC2928001CC38B /* History.swift */,
+				F8F72BEA27FC6B3B001CC38B /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				F8F72BDA27F9811E001CC38B /* MeetingHeaderView.swift in Sources */,
 				F8F72BDC27F989E8001CC38B /* ScrumProgressViewStyle.swift in Sources */,
 				F8F72BE027FC19C2001CC38B /* MeetingFooterView.swift in Sources */,
+				F8F72BEB27FC6B3B001CC38B /* ScrumStore.swift in Sources */,
 				F8F72BDE27F98D08001CC38B /* ScrumTimer.swift in Sources */,
 				F82301DD27EB0FC100C4F21B /* ThemePicker.swift in Sources */,
 				F82301CE27E9A36B00C4F21B /* DailyScrum.swift in Sources */,
