@@ -32,7 +32,7 @@ struct Browse: View {
 //                PodcastsQuickLinksRow()
             }
             .listStyle(.inset)
-            .navigationTitle("둘러보기")
+            .navigationTitle("Browse")
         }
     }
 }
