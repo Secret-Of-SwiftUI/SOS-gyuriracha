@@ -24,7 +24,7 @@ struct Browse: View {
         NavigationView {
             LazyVGrid(columns: coloumns) {
                 FeaturedRow(featured: modelData.featured)
-                NewNoteworthy()
+                NewNoteworthyRow(newNoteworthy: modelData.newNoteworthy)
                 FeaturedChannelsRow()
                 TopShowsRow()
                 TopEpisodesRow()
