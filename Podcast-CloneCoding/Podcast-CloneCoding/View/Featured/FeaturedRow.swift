@@ -34,12 +34,11 @@ struct FeaturedRow: View {
                             .cornerRadius(5)
                             .overlay(RoundedRectangle(cornerRadius: 5)
                                 .stroke(Color.secondary, lineWidth: 0.2))
-                        Spacer(minLength: 30)
                     }
                 }
             }
         }
-        .frame(height: 245)
+        .frame(height: 250)
     }
 }
 
