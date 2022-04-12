@@ -25,6 +25,8 @@
 		F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41222805321900CA4B20 /* FeaturedRow.swift */; };
 		F8BC41282805347500CA4B20 /* PodcastTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41272805347500CA4B20 /* PodcastTab.swift */; };
 		F8BC412B280547D800CA4B20 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC412A280547D800CA4B20 /* Color+.swift */; };
+		F8BC412E28055F3C00CA4B20 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC412D28055F3C00CA4B20 /* ModelData.swift */; };
+		F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC412F28055FCF00CA4B20 /* Featured.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		F8BC41222805321900CA4B20 /* FeaturedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRow.swift; sourceTree = "<group>"; };
 		F8BC41272805347500CA4B20 /* PodcastTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTab.swift; sourceTree = "<group>"; };
 		F8BC412A280547D800CA4B20 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		F8BC412D28055F3C00CA4B20 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F8BC412F28055FCF00CA4B20 /* Featured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Featured.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F85BED7F2803222C00F3202A /* Podcast_CloneCodingApp.swift */,
+				F8BC412C28055F2A00CA4B20 /* Model */,
 				F8BC40F328048F6300CA4B20 /* View */,
 				F8BC40F428048F6C00CA4B20 /* Resources */,
 				F85BED852803222F00F3202A /* Preview Content */,
@@ -237,6 +242,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F8BC412C28055F2A00CA4B20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC412D28055F3C00CA4B20 /* ModelData.swift */,
+				F8BC412F28055FCF00CA4B20 /* Featured.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8BC412E28055F3C00CA4B20 /* ModelData.swift in Sources */,
 				F8BC4106280530F600CA4B20 /* ComedyRow.swift in Sources */,
 				F8BC412B280547D800CA4B20 /* Color+.swift in Sources */,
 				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
@@ -315,6 +330,7 @@
 				F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */,
 				F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */,
 				F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */,
+				F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */,
 				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
 				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
 				F85BED802803222C00F3202A /* Podcast_CloneCodingApp.swift in Sources */,

@@ -11,6 +11,8 @@ struct Browse: View {
     
     // MARK: - Properties
     
+    @EnvironmentObject var modelData: ModelData
+    
     private let coloumns: [GridItem] = [
         GridItem(.flexible())
     ]
@@ -21,9 +23,7 @@ struct Browse: View {
     var body: some View {
         NavigationView {
             LazyVGrid(columns: coloumns) {
-                FeaturedRow(featuredData: [FeaturedRow.FeaturedData(id: 0, featuredCategory: "FEATURED PODCAST", featuredTitle: "댓글 읽어주는 기자들", featuredSubtitle: "안에서 보는 미디어"),
-                                           FeaturedRow.FeaturedData(id: 1, featuredCategory: "FEATURED", featuredTitle: "Speak English with ESLPod.com - ...", featuredSubtitle: "Listen in to speak English fast"),
-                                           FeaturedRow.FeaturedData(id: 2, featuredCategory: "FEATURED CHANNEL", featuredTitle: "신사임당의 돈 얘기 하는 곳", featuredSubtitle: "매일 더하는 경제 지식")])
+                FeaturedRow(featured: modelData.featured)
                 FeaturedChannelsRow()
                 TopShowsRow()
                 TopEpisodesRow()
@@ -49,5 +49,6 @@ struct Browse: View {
 struct Browse_Previews: PreviewProvider {
     static var previews: some View {
         Browse()
+            .environmentObject(ModelData())
     }
 }

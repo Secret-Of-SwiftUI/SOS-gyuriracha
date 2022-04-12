@@ -54,5 +54,6 @@ struct PodcastTab: View {
 struct PodcastTab_Previews: PreviewProvider {
     static var previews: some View {
         PodcastTab()
+            .environmentObject(ModelData())
     }
 }
