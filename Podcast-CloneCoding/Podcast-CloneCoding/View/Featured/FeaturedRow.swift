@@ -39,6 +39,9 @@ struct FeaturedRow: View {
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(5)
+                            .overlay(RoundedRectangle(cornerRadius: 5)
+                                .stroke(Color.secondary, lineWidth: 0.2))
+                        Spacer(minLength: 30)
                     }
                 }
             }
