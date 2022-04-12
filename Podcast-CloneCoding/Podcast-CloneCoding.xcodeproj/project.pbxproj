@@ -11,6 +11,18 @@
 		F85BED842803222F00F3202A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85BED832803222F00F3202A /* Assets.xcassets */; };
 		F85BED872803222F00F3202A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85BED862803222F00F3202A /* Preview Assets.xcassets */; };
 		F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40F128048F5F00CA4B20 /* Browse.swift */; };
+		F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */; };
+		F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */; };
+		F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4102280530EB00CA4B20 /* ArtRow.swift */; };
+		F8BC4106280530F600CA4B20 /* ComedyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4105280530F600CA4B20 /* ComedyRow.swift */; };
+		F8BC41092805310E00CA4B20 /* CatchUpOnTheNewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41082805310E00CA4B20 /* CatchUpOnTheNewsRow.swift */; };
+		F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC410D2805312E00CA4B20 /* KidsCornerRow.swift */; };
+		F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41102805314900CA4B20 /* SubscribeFavoritesRow.swift */; };
+		F8BC4114280531A400CA4B20 /* FindYourNewFavouriteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4113280531A400CA4B20 /* FindYourNewFavouriteRow.swift */; };
+		F8BC4117280531CC00CA4B20 /* TopEpisodesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4116280531CC00CA4B20 /* TopEpisodesRow.swift */; };
+		F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4119280531D800CA4B20 /* TopShowsRow.swift */; };
+		F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */; };
+		F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41222805321900CA4B20 /* FeaturedRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		F85BED832803222F00F3202A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85BED862803222F00F3202A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8BC40F128048F5F00CA4B20 /* Browse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browse.swift; sourceTree = "<group>"; };
+		F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsQuickLinksRow.swift; sourceTree = "<group>"; };
+		F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseByCategoryRow.swift; sourceTree = "<group>"; };
+		F8BC4102280530EB00CA4B20 /* ArtRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtRow.swift; sourceTree = "<group>"; };
+		F8BC4105280530F600CA4B20 /* ComedyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyRow.swift; sourceTree = "<group>"; };
+		F8BC41082805310E00CA4B20 /* CatchUpOnTheNewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchUpOnTheNewsRow.swift; sourceTree = "<group>"; };
+		F8BC410D2805312E00CA4B20 /* KidsCornerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsCornerRow.swift; sourceTree = "<group>"; };
+		F8BC41102805314900CA4B20 /* SubscribeFavoritesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeFavoritesRow.swift; sourceTree = "<group>"; };
+		F8BC4113280531A400CA4B20 /* FindYourNewFavouriteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourNewFavouriteRow.swift; sourceTree = "<group>"; };
+		F8BC4116280531CC00CA4B20 /* TopEpisodesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopEpisodesRow.swift; sourceTree = "<group>"; };
+		F8BC4119280531D800CA4B20 /* TopShowsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShowsRow.swift; sourceTree = "<group>"; };
+		F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsRow.swift; sourceTree = "<group>"; };
+		F8BC41222805321900CA4B20 /* FeaturedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,18 @@
 			isa = PBXGroup;
 			children = (
 				F8BC40F128048F5F00CA4B20 /* Browse.swift */,
+				F8BC4121280531FA00CA4B20 /* Featured */,
+				F8BC411B280531DB00CA4B20 /* FeaturedChannels */,
+				F8BC4118280531CE00CA4B20 /* TopShows */,
+				F8BC4115280531B600CA4B20 /* TopEpisodes */,
+				F8BC41122805314B00CA4B20 /* FindYourNewFavourite */,
+				F8BC410F2805312F00CA4B20 /* SubscriberFavorites */,
+				F8BC410A2805311100CA4B20 /* Kid'sCorner */,
+				F8BC4107280530F800CA4B20 /* CatchUpOnTheNews */,
+				F8BC4104280530EE00CA4B20 /* Comedy */,
+				F8BC4101280530E300CA4B20 /* Art */,
+				F8BC40FB2805305C00CA4B20 /* BrowseByCategory */,
+				F8BC40F92805303900CA4B20 /* PodcastsQuickLinks */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -81,6 +117,102 @@
 				F85BED832803222F00F3202A /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8BC40F92805303900CA4B20 /* PodcastsQuickLinks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */,
+			);
+			path = PodcastsQuickLinks;
+			sourceTree = "<group>";
+		};
+		F8BC40FB2805305C00CA4B20 /* BrowseByCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */,
+			);
+			path = BrowseByCategory;
+			sourceTree = "<group>";
+		};
+		F8BC4101280530E300CA4B20 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC4102280530EB00CA4B20 /* ArtRow.swift */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		F8BC4104280530EE00CA4B20 /* Comedy */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC4105280530F600CA4B20 /* ComedyRow.swift */,
+			);
+			path = Comedy;
+			sourceTree = "<group>";
+		};
+		F8BC4107280530F800CA4B20 /* CatchUpOnTheNews */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC41082805310E00CA4B20 /* CatchUpOnTheNewsRow.swift */,
+			);
+			path = CatchUpOnTheNews;
+			sourceTree = "<group>";
+		};
+		F8BC410A2805311100CA4B20 /* Kid'sCorner */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC410D2805312E00CA4B20 /* KidsCornerRow.swift */,
+			);
+			path = "Kid'sCorner";
+			sourceTree = "<group>";
+		};
+		F8BC410F2805312F00CA4B20 /* SubscriberFavorites */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC41102805314900CA4B20 /* SubscribeFavoritesRow.swift */,
+			);
+			path = SubscriberFavorites;
+			sourceTree = "<group>";
+		};
+		F8BC41122805314B00CA4B20 /* FindYourNewFavourite */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC4113280531A400CA4B20 /* FindYourNewFavouriteRow.swift */,
+			);
+			path = FindYourNewFavourite;
+			sourceTree = "<group>";
+		};
+		F8BC4115280531B600CA4B20 /* TopEpisodes */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC4116280531CC00CA4B20 /* TopEpisodesRow.swift */,
+			);
+			path = TopEpisodes;
+			sourceTree = "<group>";
+		};
+		F8BC4118280531CE00CA4B20 /* TopShows */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC4119280531D800CA4B20 /* TopShowsRow.swift */,
+			);
+			path = TopShows;
+			sourceTree = "<group>";
+		};
+		F8BC411B280531DB00CA4B20 /* FeaturedChannels */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */,
+			);
+			path = FeaturedChannels;
+			sourceTree = "<group>";
+		};
+		F8BC4121280531FA00CA4B20 /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC41222805321900CA4B20 /* FeaturedRow.swift */,
+			);
+			path = Featured;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +285,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8BC4106280530F600CA4B20 /* ComedyRow.swift in Sources */,
+				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
+				F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */,
+				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
+				F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */,
+				F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */,
+				F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */,
+				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
+				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
 				F85BED802803222C00F3202A /* Podcast_CloneCodingApp.swift in Sources */,
 				F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */,
+				F8BC41092805310E00CA4B20 /* CatchUpOnTheNewsRow.swift in Sources */,
+				F8BC4117280531CC00CA4B20 /* TopEpisodesRow.swift in Sources */,
+				F8BC4114280531A400CA4B20 /* FindYourNewFavouriteRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
