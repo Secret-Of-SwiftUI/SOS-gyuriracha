@@ -11,7 +11,7 @@ import SwiftUI
 struct Podcast_CloneCodingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PodcastTab()
         }
     }
 }
