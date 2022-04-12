@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct NewNoteworthy: Hashable, Identifiable {
+struct NewNoteworthy: Identifiable {
     let id = UUID()
     let thumbnailImage: String
     let title: String
