@@ -45,7 +45,7 @@ struct PodcastTab: View {
         // TODO: - tint 사용하기
 //        .tint(Color(red: 0.416, green: 0.161, blue: 0.812))
         // available iOS 15.4 {
-         .accentColor(Color(red: 0.416, green: 0.161, blue: 0.812))
+        .accentColor(.podcastMainColor)
     }
 }
 
@@ -54,5 +54,6 @@ struct PodcastTab: View {
 struct PodcastTab_Previews: PreviewProvider {
     static var previews: some View {
         PodcastTab()
+            .environmentObject(ModelData())
     }
 }
