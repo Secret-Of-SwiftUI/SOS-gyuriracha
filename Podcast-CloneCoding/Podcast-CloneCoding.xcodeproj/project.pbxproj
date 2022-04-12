@@ -23,6 +23,7 @@
 		F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4119280531D800CA4B20 /* TopShowsRow.swift */; };
 		F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */; };
 		F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41222805321900CA4B20 /* FeaturedRow.swift */; };
+		F8BC41282805347500CA4B20 /* PodcastTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41272805347500CA4B20 /* PodcastTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		F8BC4119280531D800CA4B20 /* TopShowsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShowsRow.swift; sourceTree = "<group>"; };
 		F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsRow.swift; sourceTree = "<group>"; };
 		F8BC41222805321900CA4B20 /* FeaturedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedRow.swift; sourceTree = "<group>"; };
+		F8BC41272805347500CA4B20 /* PodcastTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,7 @@
 		F8BC40F328048F6300CA4B20 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F8BC40F128048F5F00CA4B20 /* Browse.swift */,
+				F8BC41262805345800CA4B20 /* Tab */,
 				F8BC4121280531FA00CA4B20 /* Featured */,
 				F8BC411B280531DB00CA4B20 /* FeaturedChannels */,
 				F8BC4118280531CE00CA4B20 /* TopShows */,
@@ -215,6 +217,15 @@
 			path = Featured;
 			sourceTree = "<group>";
 		};
+		F8BC41262805345800CA4B20 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				F8BC41272805347500CA4B20 /* PodcastTab.swift */,
+				F8BC40F128048F5F00CA4B20 /* Browse.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +306,7 @@
 				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
 				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
 				F85BED802803222C00F3202A /* Podcast_CloneCodingApp.swift in Sources */,
+				F8BC41282805347500CA4B20 /* PodcastTab.swift in Sources */,
 				F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */,
 				F8BC41092805310E00CA4B20 /* CatchUpOnTheNewsRow.swift in Sources */,
 				F8BC4117280531CC00CA4B20 /* TopEpisodesRow.swift in Sources */,
