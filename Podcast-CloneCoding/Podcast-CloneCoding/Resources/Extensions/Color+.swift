@@ -7,14 +7,6 @@
 
 import SwiftUI
 
-struct Color_: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Color__Previews: PreviewProvider {
-    static var previews: some View {
-        Color_()
-    }
+extension Color {
+    static let podcastMainColor: Color = Color(red: 0.416, green: 0.161, blue: 0.812)
 }
