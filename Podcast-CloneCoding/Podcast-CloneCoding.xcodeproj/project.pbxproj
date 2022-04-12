@@ -28,6 +28,7 @@
 		F8BC412E28055F3C00CA4B20 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC412D28055F3C00CA4B20 /* ModelData.swift */; };
 		F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC412F28055FCF00CA4B20 /* Featured.swift */; };
 		F8BC41332805753E00CA4B20 /* NewNoteworthyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */; };
+		F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		F8BC412D28055F3C00CA4B20 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		F8BC412F28055FCF00CA4B20 /* Featured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Featured.swift; sourceTree = "<group>"; };
 		F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthyRow.swift; sourceTree = "<group>"; };
+		F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 			children = (
 				F8BC412D28055F3C00CA4B20 /* ModelData.swift */,
 				F8BC412F28055FCF00CA4B20 /* Featured.swift */,
+				F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				F8BC412E28055F3C00CA4B20 /* ModelData.swift in Sources */,
 				F8BC4106280530F600CA4B20 /* ComedyRow.swift in Sources */,
 				F8BC412B280547D800CA4B20 /* Color+.swift in Sources */,
+				F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */,
 				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
 				F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */,
 				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
