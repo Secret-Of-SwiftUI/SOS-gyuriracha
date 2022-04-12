@@ -13,6 +13,8 @@ struct FeaturedRow: View {
     
     var featured: [Featured]
     
+    // MARK: - View
+    
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(alignment: .top, spacing: 10) {
@@ -41,6 +43,8 @@ struct FeaturedRow: View {
         .frame(height: 250)
     }
 }
+
+// MARK: - Preview
 
 struct FeaturedRow_Previews: PreviewProvider {
     static let featured = ModelData().featured

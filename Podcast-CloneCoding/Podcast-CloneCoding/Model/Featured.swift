@@ -8,8 +8,9 @@
 import Foundation
 
 struct Featured: Hashable, Identifiable {
-    var id = UUID()
-    var featuredCategory: String
-    var featuredTitle: String
-    var featuredSubtitle: String
+    let id = UUID()
+    let thumbnailImage: String
+    let featuredCategory: String
+    let featuredTitle: String
+    let featuredSubtitle: String
 }

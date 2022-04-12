@@ -22,24 +22,26 @@ struct Browse: View {
     
     var body: some View {
         NavigationView {
-            LazyVGrid(columns: coloumns) {
-                FeaturedRow(featured: modelData.featured)
-                FeaturedChannelsRow()
-                TopShowsRow()
-                TopEpisodesRow()
-                FindYourNewFavouriteRow()
-                SubscribeFavoritesRow()
-                KidsCornerRow()
-                CatchUpOnTheNewsRow()
-                ComedyRow()
-                //                ArtRow()
-                
-                //                BrowseByCategoryRow()
-                //                PodcastsQuickLinksRow()
+            ScrollView {
+                LazyVGrid(columns: coloumns) {
+                    FeaturedRow(featured: modelData.featured)
+                    NewNoteworthyRow(newNoteworthy: modelData.newNoteworthy)
+                    FeaturedChannelsRow()
+                    TopShowsRow()
+                    TopEpisodesRow()
+                    FindYourNewFavouriteRow()
+                    SubscribeFavoritesRow()
+                    KidsCornerRow()
+                    CatchUpOnTheNewsRow()
+                    ComedyRow()
+                    //                ArtRow()
+                    
+                    //                BrowseByCategoryRow()
+                    //                PodcastsQuickLinksRow()
+                }
             }
             .listStyle(.inset)
             .navigationTitle("Browse")
-            
         }
     }
 }
