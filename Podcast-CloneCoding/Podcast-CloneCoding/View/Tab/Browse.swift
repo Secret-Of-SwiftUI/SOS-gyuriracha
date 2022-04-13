@@ -26,7 +26,7 @@ struct Browse: View {
                 LazyVGrid(columns: coloumns) {
                     FeaturedRow(featured: modelData.featured)
                     NewNoteworthyRow(newNoteworthy: modelData.newNoteworthy)
-                    FeaturedChannelsRow()
+                    FeaturedChannelsRow(featuredChannels: modelData.featuredChannels)
                     TopShowsRow()
                     TopEpisodesRow()
                     FindYourNewFavouriteRow()
@@ -35,7 +35,6 @@ struct Browse: View {
                     CatchUpOnTheNewsRow()
                     ComedyRow()
                     //                ArtRow()
-                    
                     //                BrowseByCategoryRow()
                     //                PodcastsQuickLinksRow()
                 }
