@@ -92,7 +92,6 @@
 				F82301DA27EB0E7A00C4F21B /* ThemeView.swift */,
 				F82301DC27EB0FC100C4F21B /* ThemePicker.swift */,
 				F8F72BD927F9811E001CC38B /* MeetingHeaderView.swift */,
-				F8F72BDD27F98D08001CC38B /* ScrumTimer.swift */,
 				F88FCADB27E863EE003A229E /* MeetingView.swift */,
 				F8F72BDF27FC19C2001CC38B /* MeetingFooterView.swift */,
 				F8B56DD82806D27300C210AD /* ErrorView.swift */,
@@ -132,6 +131,7 @@
 		F88FCAD827E863EE003A229E /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				F8F72BDD27F98D08001CC38B /* ScrumTimer.swift */,
 				F88FCAD927E863EE003A229E /* ScrumdingerApp.swift */,
 				F8F72BDB27F989E8001CC38B /* ScrumProgressViewStyle.swift */,
 				F8F72BE427FC209B001CC38B /* AVPlayer+Ding.swift */,
