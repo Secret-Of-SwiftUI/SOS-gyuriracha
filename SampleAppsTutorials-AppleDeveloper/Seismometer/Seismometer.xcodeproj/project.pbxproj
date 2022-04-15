@@ -15,6 +15,7 @@
 		F8C8914D2808924700F5EF3F /* NeedleSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8914C2808924700F5EF3F /* NeedleSeismometer.swift */; };
 		F8C8914F2809281C00F5EF3F /* GraphSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8914E2809281C00F5EF3F /* GraphSeismometer.swift */; };
 		F8C8915128092ADD00F5EF3F /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8915028092ADD00F5EF3F /* Double+.swift */; };
+		F8C8915328092B3A00F5EF3F /* SeismometerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8915228092B3A00F5EF3F /* SeismometerBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F8C8914C2808924700F5EF3F /* NeedleSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSeismometer.swift; sourceTree = "<group>"; };
 		F8C8914E2809281C00F5EF3F /* GraphSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSeismometer.swift; sourceTree = "<group>"; };
 		F8C8915028092ADD00F5EF3F /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		F8C8915228092B3A00F5EF3F /* SeismometerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeismometerBrowser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				F8C8914C2808924700F5EF3F /* NeedleSeismometer.swift */,
 				F8C8914028087C9900F5EF3F /* Assets.xcassets */,
 				F8C8914228087C9900F5EF3F /* Preview Content */,
+				F8C8915228092B3A00F5EF3F /* SeismometerBrowser.swift */,
 			);
 			path = Seismometer;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				F8C8914D2808924700F5EF3F /* NeedleSeismometer.swift in Sources */,
 				F8C8913F28087C9800F5EF3F /* ContentView.swift in Sources */,
 				F8C8913D28087C9800F5EF3F /* SeismometerApp.swift in Sources */,
+				F8C8915328092B3A00F5EF3F /* SeismometerBrowser.swift in Sources */,
 				F8C8915128092ADD00F5EF3F /* Double+.swift in Sources */,
 				F8C8914B280883F700F5EF3F /* MotionDetector.swift in Sources */,
 			);
