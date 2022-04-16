@@ -13,6 +13,7 @@
 		F873B620280A925000189DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F873B61F280A925000189DFC /* Preview Assets.xcassets */; };
 		F873B627280AAA0A00189DFC /* LongPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873B626280AAA0A00189DFC /* LongPressView.swift */; };
 		F873B629280AAC3F00189DFC /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873B628280AAC3F00189DFC /* DragView.swift */; };
+		F873B62B280AAE1500189DFC /* RotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F873B62A280AAE1500189DFC /* RotateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F873B61F280A925000189DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F873B626280AAA0A00189DFC /* LongPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressView.swift; sourceTree = "<group>"; };
 		F873B628280AAC3F00189DFC /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		F873B62A280AAE1500189DFC /* RotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F873B61A280A924D00189DFC /* TapView.swift */,
 				F873B626280AAA0A00189DFC /* LongPressView.swift */,
 				F873B628280AAC3F00189DFC /* DragView.swift */,
+				F873B62A280AAE1500189DFC /* RotateView.swift */,
 				F873B61C280A925000189DFC /* Assets.xcassets */,
 				F873B61E280A925000189DFC /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				F873B627280AAA0A00189DFC /* LongPressView.swift in Sources */,
 				F873B629280AAC3F00189DFC /* DragView.swift in Sources */,
 				F873B619280A924D00189DFC /* RecognizingGesturesApp.swift in Sources */,
+				F873B62B280AAE1500189DFC /* RotateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
