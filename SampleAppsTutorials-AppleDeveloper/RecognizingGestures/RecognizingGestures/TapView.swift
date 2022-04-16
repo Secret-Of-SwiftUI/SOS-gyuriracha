@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TapView.swift
 //  RecognizingGestures
 //
 //  Created by kimhyungyu on 2022/04/16.
