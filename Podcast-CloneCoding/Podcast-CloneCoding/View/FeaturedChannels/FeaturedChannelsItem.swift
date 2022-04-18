@@ -21,6 +21,7 @@ struct FeaturedChannelsItem: View {
                 Spacer(minLength: 15)
                 Text(featuredChannel.detail)
                     .multilineTextAlignment(.center)
+                    .lineLimit(3)
                     .font(.subheadline)
                     .foregroundColor(.white)
                 Spacer(minLength: 15)
