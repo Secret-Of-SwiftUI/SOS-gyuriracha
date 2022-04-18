@@ -8,13 +8,47 @@
 import SwiftUI
 
 struct TopShowsRow: View {
+    
+    // MARK: - Properties
+    
+    var topShows: [TopShow]
+    
+    // MARK: - View
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Divider()
+                .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
+            HStack {
+                Text("Top Shows")
+                    .font(.title2)
+                    .bold()
+                Spacer()
+                Button("See All") {
+                    print("touch TopShowsRow `See All`")
+                }
+            }
+            .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(alignment: .top, spacing: 12) {
+                    Spacer()
+                    ForEach(0..<topShows.count) { index in
+                        TopShowsItem(topShow: topShows[index], index: index + 1)
+                    }
+                    Spacer()
+                }
+            }
+            Spacer()
+        }
     }
 }
 
+// MARK: - Preview
+
 struct TopShowsRow_Previews: PreviewProvider {
+    static let topShows = ModelData().topShows
+    
     static var previews: some View {
-        TopShowsRow()
+        TopShowsRow(topShows: topShows)
     }
 }

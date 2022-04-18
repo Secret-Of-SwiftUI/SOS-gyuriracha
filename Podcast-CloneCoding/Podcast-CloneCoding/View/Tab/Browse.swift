@@ -32,8 +32,9 @@ struct Browse: View {
                         .frame(height: 280)
                     // FeaturedChannelsRow's item height is 350.
                     FeaturedChannelsRow(featuredChannels: modelData.featuredChannels)
-                        .frame(height: 420)
-                    TopShowsRow()
+                        .frame(height: 415)
+                    TopShowsRow(topShows: modelData.topShows)
+                        .frame(height: 300)
                     TopEpisodesRow()
                     FindYourNewFavouriteRow()
                     SubscribeFavoritesRow()
