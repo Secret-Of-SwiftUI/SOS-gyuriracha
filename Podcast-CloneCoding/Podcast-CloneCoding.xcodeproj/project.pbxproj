@@ -30,6 +30,7 @@
 		F8BC41332805753E00CA4B20 /* NewNoteworthyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */; };
 		F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */; };
 		F8BC4137280587A900CA4B20 /* FeaturedChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */; };
+		F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthyRow.swift; sourceTree = "<group>"; };
 		F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthy.swift; sourceTree = "<group>"; };
 		F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannels.swift; sourceTree = "<group>"; };
+		F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */,
+				F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */,
 			);
 			path = FeaturedChannels;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				F8BC4106280530F600CA4B20 /* ComedyRow.swift in Sources */,
 				F8BC412B280547D800CA4B20 /* Color+.swift in Sources */,
 				F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */,
+				F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */,
 				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
 				F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */,
 				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
