@@ -16,22 +16,29 @@ struct FeaturedItem: View {
     // MARK: - View
     var body: some View {
         VStack(alignment: .leading) {
+            Divider()
             Text(featured.featuredCategory)
                 .font(.caption)
                 .foregroundColor(.podcastMainColor)
                 .bold()
+                .lineLimit(1)
             Text(featured.featuredTitle)
                 .font(.title2)
+                .lineLimit(1)
             Text(featured.featuredSubtitle)
                 .font(.title2)
                 .foregroundColor(.secondary)
+                .lineLimit(1)
             Image("featuredImage1")
                 .resizable()
                 .scaledToFill()
+                .frame(width: 320, height: 220)
+                .clipped()
                 .cornerRadius(5)
                 .overlay(RoundedRectangle(cornerRadius: 5)
                     .stroke(Color.secondary, lineWidth: 0.2))
         }
+        .frame(width: 320, height: 310)
     }
 }
 

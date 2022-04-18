@@ -24,9 +24,11 @@ struct Browse: View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: coloumns) {
+                    // FeaturedRow's item height is 310.
                     FeaturedRow(featuredes: modelData.featured)
-                    NewNoteworthyRow(newNoteworthy: modelData.newNoteworthy)
-                    // FeaturedChannelsRow 의 item height 는 350
+                        .frame(height: 330)
+                    NewNoteworthyRow(newNoteworthys: modelData.newNoteworthy)
+                    // FeaturedChannelsRow's item height is 350.
                     FeaturedChannelsRow(featuredChannels: modelData.featuredChannels)
                         .frame(height: 420)
                     TopShowsRow()

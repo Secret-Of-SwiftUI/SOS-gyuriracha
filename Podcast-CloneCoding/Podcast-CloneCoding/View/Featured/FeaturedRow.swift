@@ -16,18 +16,18 @@ struct FeaturedRow: View {
     // MARK: - View
     
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(alignment: .top, spacing: 12) {
-                Spacer(minLength: 7)
-                ForEach(featuredes) { featured in
-                    VStack(alignment: .leading) {
-                        Divider()
+        VStack {
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(alignment: .top, spacing: 12) {
+                    Spacer(minLength: 7)
+                    ForEach(featuredes) { featured in
                         FeaturedItem(featured: featured)
                     }
+                    Spacer(minLength: 7)
                 }
-                Spacer(minLength: 7)
+                
             }
-            .frame(height: 250)
+            Spacer()
         }
     }
 }
