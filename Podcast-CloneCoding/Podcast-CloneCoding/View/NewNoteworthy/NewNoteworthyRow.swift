@@ -18,7 +18,7 @@ struct NewNoteworthyRow: View {
     var body: some View {
         VStack {
             Divider()
-                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+                .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
             HStack {
                 Text("New & Noteworthy")
                     .font(.title2)
