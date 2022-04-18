@@ -33,6 +33,8 @@
 		F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */; };
 		F8DC283E280D600100F60271 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283D280D600100F60271 /* FeaturedItem.swift */; };
 		F8DC2840280D639300F60271 /* NewNoteworthyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283F280D639300F60271 /* NewNoteworthyItem.swift */; };
+		F8DC2842280DCBF500F60271 /* TopShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC2841280DCBF500F60271 /* TopShow.swift */; };
+		F8DC2846280DCD8800F60271 /* TopShowsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC2845280DCD8800F60271 /* TopShowsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsItem.swift; sourceTree = "<group>"; };
 		F8DC283D280D600100F60271 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 		F8DC283F280D639300F60271 /* NewNoteworthyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthyItem.swift; sourceTree = "<group>"; };
+		F8DC2841280DCBF500F60271 /* TopShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShow.swift; sourceTree = "<group>"; };
+		F8DC2845280DCD8800F60271 /* TopShowsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShowsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				F8BC4119280531D800CA4B20 /* TopShowsRow.swift */,
+				F8DC2845280DCD8800F60271 /* TopShowsItem.swift */,
 			);
 			path = TopShows;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				F8BC412F28055FCF00CA4B20 /* Featured.swift */,
 				F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */,
 				F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */,
+				F8DC2841280DCBF500F60271 /* TopShow.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -358,7 +364,9 @@
 				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
 				F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */,
 				F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */,
+				F8DC2846280DCD8800F60271 /* TopShowsItem.swift in Sources */,
 				F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */,
+				F8DC2842280DCBF500F60271 /* TopShow.swift in Sources */,
 				F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */,
 				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
 				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
