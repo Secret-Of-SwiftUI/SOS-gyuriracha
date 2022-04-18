@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct FeaturedChannelsItem: View {
+    
+    // MARK: - Properties
+    
     var featuredChannel: FeaturedChannel
+    
+    // MARK: - View
     
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
@@ -18,13 +23,14 @@ struct FeaturedChannelsItem: View {
                 .frame(height: 245)
                 .clipped()
             HStack(alignment: .center) {
-                Spacer(minLength: 15)
+//                Spacer(minLength: 15)
                 Text(featuredChannel.detail)
                     .multilineTextAlignment(.center)
                     .lineLimit(3)
                     .font(.subheadline)
                     .foregroundColor(.white)
-                Spacer(minLength: 15)
+                    .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 15))
+//                Spacer(minLength: 15)
             }
             .frame(height: 85)
         }
@@ -32,6 +38,8 @@ struct FeaturedChannelsItem: View {
         .background(featuredChannel.themeColor)
     }
 }
+
+// MARK: - Preview
 
 struct FeaturedChannelsItem_Previews: PreviewProvider {
     static let featuredChannels = ModelData().featuredChannels

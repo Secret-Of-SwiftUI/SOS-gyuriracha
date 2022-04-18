@@ -28,4 +28,11 @@ final class ModelData: ObservableObject {
         FeaturedChannel(thumbnail: "featuredChannelsImage3", detail: "재테크, 부동산, 창업 등. 하루하루 열심히 살아가는 사람들의 이야기를 전합니다.", themeColor: .init(red: 0.595, green: 0.662, blue: 0.699)),
         FeaturedChannel(thumbnail: "featuredChannelsImage4", detail: "Wondery brings a world of entertainment and knowledge to linsteners with character-driven, and so on like this...", themeColor: .init(red: 0.182, green: 0.337, blue: 0.350))
     ]
+    
+    @Published var topShows: [TopShow] = [
+        TopShow(thumbnail: "topShowImage1", title: "[여둘톡] 여자 둘이 토크하고 있습니다", caster: "PenUnion"),
+        TopShow(thumbnail: "topShowImage2", title: "이진우의 손에 잡히는 경제", caster: "MBC"),
+        TopShow(thumbnail: "topShowImage3", title: "송은이&김숙 비밀보장", caster: "컨텐츠랩비보"),
+        TopShow(thumbnail: "topShowImage4", title: "[듣똑라]듣다보면 똑똑해지는 라이프", caster: "듣똑라")
+    ]
 }
