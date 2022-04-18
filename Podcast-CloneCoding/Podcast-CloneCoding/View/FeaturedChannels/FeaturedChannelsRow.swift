@@ -28,7 +28,7 @@ struct FeaturedChannelsRow: View {
                         Spacer()
                         ForEach(featuredChannels) { featuredChannel in
                             FeaturedChannelsItem(featuredChannel: featuredChannel)
-                                .frame(width: 250, height: 350, alignment: .leading)
+                                .frame(width: 250, height: 330, alignment: .leading)
                                 .border(.gray, width: 0.2)
                                 .cornerRadius(10)
                                 .shadow(color: .black.opacity(0.2), radius: 3, x: 0, y: 2)
