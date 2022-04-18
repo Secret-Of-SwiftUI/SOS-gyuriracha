@@ -11,7 +11,7 @@ struct FeaturedChannelsRow: View {
     
     // MARK: - Properties
     
-    var featuredChannels: [FeaturedChannels]
+    var featuredChannels: [FeaturedChannel]
     
     // MARK: - View
     var body: some View {
@@ -24,17 +24,17 @@ struct FeaturedChannelsRow: View {
             }
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
-                ForEach(featuredChannels) { featuredChannels in
+                ForEach(featuredChannels) { featuredChannel in
                     VStack {
-                        Image(featuredChannels.thumbnail)
+                        Image(featuredChannel.thumbnail)
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(10)
                             .overlay(RoundedRectangle(cornerRadius: 10)
                                 .stroke(Color.secondary, lineWidth: 0.2))
-                        Text(featuredChannels.detail)
+                        Text(featuredChannel.detail)
                     }
-                    .frame(height: 500)
+                    .frame(width: 200)
                     .cornerRadius(5)
                 }
             }

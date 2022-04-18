@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FeaturedChannels: Identifiable {
+struct FeaturedChannel: Identifiable {
     let id = UUID()
     let thumbnail: String
     let detail: String
