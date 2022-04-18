@@ -11,13 +11,14 @@ struct NewNoteworthyRow: View {
     
     // MARK: - Properties
     
-    var newNoteworthy: [NewNoteworthy]
+    var newNoteworthys: [NewNoteworthy]
     
     // MARK: - View
     
     var body: some View {
         VStack {
             Divider()
+                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             HStack {
                 Text("New & Noteworthy")
                     .font(.title2)
@@ -27,34 +28,25 @@ struct NewNoteworthyRow: View {
                     print("touch NewNoteworthyRow `See All`")
                 }
             }
+            .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16))
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top, spacing: 10) {
-                    ForEach(newNoteworthy) { newNoteworthy in
-                        VStack(alignment: .leading) {
-                            Image(newNoteworthy.thumbnailImage)
-                                .resizable()
-                                .scaledToFill()
-                                .cornerRadius(5)
-                                .overlay(RoundedRectangle(cornerRadius: 5)
-                                    .stroke(Color.secondary, lineWidth: 0.2))
-                            Text(newNoteworthy.title)
-                                .font(.subheadline)
-                            Text(newNoteworthy.caster)
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                        }
+                HStack(alignment: .top, spacing: 12) {
+                    Spacer()
+                    ForEach(newNoteworthys) { newNoteworthy in
+                        NewNoteworthyItem(newNoteworthy: newNoteworthy)
                     }
+                    Spacer()
                 }
             }
-            .frame(height: 250)
+            Spacer()
         }
     }
 }
 
 struct NewNoteworthyRow_Previews: PreviewProvider {
-    static let newNoteworthy = ModelData().newNoteworthy
+    static let newNoteworthys = ModelData().newNoteworthy
     
     static var previews: some View {
-        NewNoteworthyRow(newNoteworthy: newNoteworthy)
+        NewNoteworthyRow(newNoteworthys: newNoteworthys)
     }
 }
