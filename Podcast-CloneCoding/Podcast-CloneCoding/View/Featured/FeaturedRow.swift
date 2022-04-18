@@ -25,7 +25,6 @@ struct FeaturedRow: View {
                     }
                     Spacer(minLength: 7)
                 }
-                
             }
             Spacer()
         }

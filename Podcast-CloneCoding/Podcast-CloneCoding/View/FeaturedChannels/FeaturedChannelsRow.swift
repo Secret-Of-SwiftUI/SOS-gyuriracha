@@ -14,6 +14,7 @@ struct FeaturedChannelsRow: View {
     var featuredChannels: [FeaturedChannel]
     
     // MARK: - View
+    
     var body: some View {
         VStack(alignment: .leading) {
             Divider()
@@ -41,6 +42,8 @@ struct FeaturedChannelsRow: View {
         }
     }
 }
+
+// MARK: - Preview
 
 struct FeaturedChannelsRow_Previews: PreviewProvider {
     static let featuredChannels = ModelData().featuredChannels
