@@ -11,9 +11,17 @@ struct FeaturedChannelsItem: View {
     var featuredChannel: FeaturedChannel
     
     var body: some View {
-        VStack {
-            
+        VStack(alignment: .trailing, spacing: 0) {
+            Image(featuredChannel.thumbnail)
+                .resizable()
+                .scaledToFill()
+                Text(featuredChannel.detail)
+                    .multilineTextAlignment(.center)
+                    .font(.subheadline)
+                    .foregroundColor(.white)
+                    .frame(height: 100)
         }
+        .background(featuredChannel.themeColor)
     }
 }
 

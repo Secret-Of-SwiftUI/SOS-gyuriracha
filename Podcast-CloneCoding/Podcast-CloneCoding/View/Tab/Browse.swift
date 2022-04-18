@@ -26,7 +26,9 @@ struct Browse: View {
                 LazyVGrid(columns: coloumns) {
                     FeaturedRow(featured: modelData.featured)
                     NewNoteworthyRow(newNoteworthy: modelData.newNoteworthy)
+                    // FeaturedChannelsRow 의 item height 는 350
                     FeaturedChannelsRow(featuredChannels: modelData.featuredChannels)
+                        .frame(height: 420)
                     TopShowsRow()
                     TopEpisodesRow()
                     FindYourNewFavouriteRow()

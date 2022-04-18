@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct FeaturedChannel: Identifiable {
     let id = UUID()
     let thumbnail: String
     let detail: String
+    let themeColor: Color
 }

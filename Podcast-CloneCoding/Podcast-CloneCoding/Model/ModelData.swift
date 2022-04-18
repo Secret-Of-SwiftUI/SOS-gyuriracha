@@ -23,12 +23,9 @@ final class ModelData: ObservableObject {
     ]
     
     @Published var featuredChannels: [FeaturedChannel] = [
-        FeaturedChannel(thumbnail: "featuredChannelsImage1", detail: "정신과 의사들의 진짜 정신과 이야기"),
-        FeaturedChannel(thumbnail: "featuredChannelsImage2", detail: """
-                                                                어른이 되면 복잡한 문제도 알아서 척척 해결할 줄 알았다!
-                                                                그런데, 막상 세상에 나와 보니 모든 게 내 마음처럼 풀리지 않는다?!
-                                                                """),
-        FeaturedChannel(thumbnail: "featuredChannelsImage3", detail: "구독자 130만 명에 육박하는 경제 분야 최고의 유튜버 '신사임당'~ 하루하루 열심히 살아가는 사람들의 이야기를 전합니다."),
-        FeaturedChannel(thumbnail: "featuredChannelsImage4", detail: "Subscribe now for 2 free months of unique and immersive stories")
+        FeaturedChannel(thumbnail: "featuredChannelsImage1", detail: "어디서도 들을 수 없었던 정신과 세계의 이야기. 보너스 컨텐츠와 미리 듣기 컨텐츠로 빠져보세요.", themeColor: .init(red: 0.452, green: 0.584, blue: 0.695)),
+        FeaturedChannel(thumbnail: "featuredChannelsImage2", detail: "말이 바뀌면 삶이 바뀐다! 말이 아쉬웠던 당신을 위한 대화법의 모든 것. 보너스 컨텐츠로 만나보세요.", themeColor: .init(red: 0.658, green: 0.681, blue: 0.692)),
+        FeaturedChannel(thumbnail: "featuredChannelsImage3", detail: "재테크, 부동산, 창업 등. 하루하루 열심히 살아가는 사람들의 이야기를 전합니다.", themeColor: .init(red: 0.595, green: 0.662, blue: 0.699)),
+        FeaturedChannel(thumbnail: "featuredChannelsImage4", detail: "Wondery brings a world of entertainment and knowledge to linsteners with character-driven, and so on like this...", themeColor: .init(red: 0.182, green: 0.337, blue: 0.350))
     ]
 }

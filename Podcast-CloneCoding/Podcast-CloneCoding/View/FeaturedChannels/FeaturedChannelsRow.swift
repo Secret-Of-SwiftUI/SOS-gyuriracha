@@ -17,30 +17,31 @@ struct FeaturedChannelsRow: View {
     var body: some View {
         VStack(alignment: .leading) {
             Divider()
+                .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             VStack {
                 Text("Featured Channels")
                     .font(.title2)
                     .bold()
             }
+            .padding(EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 0))
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                ForEach(featuredChannels) { featuredChannel in
-                    VStack {
-                        Image(featuredChannel.thumbnail)
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(10)
-                            .overlay(RoundedRectangle(cornerRadius: 10)
-                                .stroke(Color.secondary, lineWidth: 0.2))
-                        Text(featuredChannel.detail)
+                VStack {
+                    HStack(spacing: 12) {
+                        Spacer(minLength: 0)
+                        ForEach(featuredChannels) { featuredChannel in
+                            FeaturedChannelsItem(featuredChannel: featuredChannel)
+                                .frame(width: 250, height: 350, alignment: .leading)
+                                .border(.gray, width: 0.2)
+                                .cornerRadius(10)
+                                .shadow(color: .black.opacity(0.2), radius: 3, x: 0, y: 2)
+                        }
+                        Spacer(minLength: 0)
                     }
-                    .frame(width: 200)
-                    .cornerRadius(5)
+                    Spacer()
                 }
             }
         }
     }
-}
 }
 
 struct FeaturedChannelsRow_Previews: PreviewProvider {
