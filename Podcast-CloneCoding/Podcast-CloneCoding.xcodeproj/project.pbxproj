@@ -29,6 +29,8 @@
 		F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC412F28055FCF00CA4B20 /* Featured.swift */; };
 		F8BC41332805753E00CA4B20 /* NewNoteworthyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */; };
 		F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */; };
+		F8BC4137280587A900CA4B20 /* FeaturedChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */; };
+		F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		F8BC412F28055FCF00CA4B20 /* Featured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Featured.swift; sourceTree = "<group>"; };
 		F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthyRow.swift; sourceTree = "<group>"; };
 		F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthy.swift; sourceTree = "<group>"; };
+		F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannels.swift; sourceTree = "<group>"; };
+		F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				F8BC411F280531F800CA4B20 /* FeaturedChannelsRow.swift */,
+				F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */,
 			);
 			path = FeaturedChannels;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				F8BC412D28055F3C00CA4B20 /* ModelData.swift */,
 				F8BC412F28055FCF00CA4B20 /* Featured.swift */,
 				F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */,
+				F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +345,7 @@
 				F8BC4106280530F600CA4B20 /* ComedyRow.swift in Sources */,
 				F8BC412B280547D800CA4B20 /* Color+.swift in Sources */,
 				F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */,
+				F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */,
 				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
 				F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */,
 				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
@@ -349,6 +356,7 @@
 				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
 				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
 				F85BED802803222C00F3202A /* Podcast_CloneCodingApp.swift in Sources */,
+				F8BC4137280587A900CA4B20 /* FeaturedChannels.swift in Sources */,
 				F8BC41332805753E00CA4B20 /* NewNoteworthyRow.swift in Sources */,
 				F8BC41282805347500CA4B20 /* PodcastTab.swift in Sources */,
 				F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */,

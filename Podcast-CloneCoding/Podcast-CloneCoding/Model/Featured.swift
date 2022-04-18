@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Featured: Hashable, Identifiable {
+struct Featured: Identifiable {
     let id = UUID()
     let thumbnailImage: String
     let featuredCategory: String

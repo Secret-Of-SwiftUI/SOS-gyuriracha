@@ -22,6 +22,14 @@ struct PodcastTab: View {
     
     // MARK: - View
     
+    
+    /*
+    init() {
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .normal)
+    }
+    */
+    
     var body: some View {
         
         TabView(selection: $selection) {
