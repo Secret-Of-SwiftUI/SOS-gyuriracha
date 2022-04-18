@@ -32,6 +32,8 @@ struct TopShowsRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 12) {
                     Spacer()
+                    // this code can hide warning.
+//                    ForEach(0..<topShows.count, id: \.self) { index in
                     ForEach(0..<topShows.count) { index in
                         TopShowsItem(topShow: topShows[index], index: index + 1)
                     }
