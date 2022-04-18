@@ -9,47 +9,35 @@ import SwiftUI
 
 struct FeaturedRow: View {
     
-    // MARK: - Properties
+    // MARK: - Properties 
     
-    var featured: [Featured]
+    var featuredes: [Featured]
     
     // MARK: - View
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack(alignment: .top, spacing: 10) {
-                ForEach(featured) { featured in
+            HStack(alignment: .top, spacing: 12) {
+                Spacer(minLength: 7)
+                ForEach(featuredes) { featured in
                     VStack(alignment: .leading) {
                         Divider()
-                        Text(featured.featuredCategory)
-                            .font(.caption)
-                            .foregroundColor(.podcastMainColor)
-                            .bold()
-                        Text(featured.featuredTitle)
-                            .font(.title2)
-                        Text(featured.featuredSubtitle)
-                            .font(.title2)
-                            .foregroundColor(.secondary)
-                        Image("featuredImage1")
-                            .resizable()
-                            .scaledToFill()
-                            .cornerRadius(5)
-                            .overlay(RoundedRectangle(cornerRadius: 5)
-                                .stroke(Color.secondary, lineWidth: 0.2))
+                        FeaturedItem(featured: featured)
                     }
                 }
+                Spacer(minLength: 7)
             }
+            .frame(height: 250)
         }
-        .frame(height: 250)
     }
 }
 
 // MARK: - Preview
 
 struct FeaturedRow_Previews: PreviewProvider {
-    static let featured = ModelData().featured
+    static let featuredes = ModelData().featured
     
     static var previews: some View {
-        FeaturedRow(featured: featured)
+        FeaturedRow(featuredes: featuredes)
     }
 }
