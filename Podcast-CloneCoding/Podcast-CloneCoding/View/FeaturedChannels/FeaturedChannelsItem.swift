@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct FeaturedChannelsItem: View {
+    
+    // MARK: - Properties
+    
     var featuredChannel: FeaturedChannel
+    
+    // MARK: - View
     
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
@@ -32,6 +37,8 @@ struct FeaturedChannelsItem: View {
         .background(featuredChannel.themeColor)
     }
 }
+
+// MARK: - Preview
 
 struct FeaturedChannelsItem_Previews: PreviewProvider {
     static let featuredChannels = ModelData().featuredChannels

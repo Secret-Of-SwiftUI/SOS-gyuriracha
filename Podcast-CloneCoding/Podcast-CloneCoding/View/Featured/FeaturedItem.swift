@@ -14,6 +14,7 @@ struct FeaturedItem: View {
     var featured: Featured
     
     // MARK: - View
+    
     var body: some View {
         VStack(alignment: .leading) {
             Divider()
