@@ -11,16 +11,24 @@ struct FeaturedChannelsItem: View {
     var featuredChannel: FeaturedChannel
     
     var body: some View {
-        VStack(alignment: .trailing, spacing: 0) {
+        VStack(alignment: .center, spacing: 0) {
             Image(featuredChannel.thumbnail)
                 .resizable()
                 .scaledToFill()
+                .frame(height: 245)
+                .clipped()
+            HStack(alignment: .center) {
+                Spacer(minLength: 15)
                 Text(featuredChannel.detail)
                     .multilineTextAlignment(.center)
+                    .lineLimit(3)
                     .font(.subheadline)
                     .foregroundColor(.white)
-                    .frame(height: 100)
+                Spacer(minLength: 15)
+            }
+            .frame(height: 85)
         }
+        .frame(width: 250, height: 330)
         .background(featuredChannel.themeColor)
     }
 }
