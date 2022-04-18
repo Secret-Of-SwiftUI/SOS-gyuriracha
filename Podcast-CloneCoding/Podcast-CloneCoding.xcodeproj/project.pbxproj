@@ -31,6 +31,8 @@
 		F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */; };
 		F8BC4137280587A900CA4B20 /* FeaturedChannels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */; };
 		F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */; };
+		F8DC283E280D600100F60271 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283D280D600100F60271 /* FeaturedItem.swift */; };
+		F8DC2840280D639300F60271 /* NewNoteworthyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC283F280D639300F60271 /* NewNoteworthyItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		F8BC4134280578EC00CA4B20 /* NewNoteworthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthy.swift; sourceTree = "<group>"; };
 		F8BC4136280587A900CA4B20 /* FeaturedChannels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannels.swift; sourceTree = "<group>"; };
 		F8DC283B280D327500F60271 /* FeaturedChannelsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedChannelsItem.swift; sourceTree = "<group>"; };
+		F8DC283D280D600100F60271 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		F8DC283F280D639300F60271 /* NewNoteworthyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteworthyItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				F8BC41222805321900CA4B20 /* FeaturedRow.swift */,
+				F8DC283D280D600100F60271 /* FeaturedItem.swift */,
 			);
 			path = Featured;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				F8BC41322805753E00CA4B20 /* NewNoteworthyRow.swift */,
+				F8DC283F280D639300F60271 /* NewNoteworthyItem.swift */,
 			);
 			path = NewNoteworthy;
 			sourceTree = "<group>";
@@ -347,6 +353,7 @@
 				F8BC4135280578EC00CA4B20 /* NewNoteworthy.swift in Sources */,
 				F8DC283C280D327500F60271 /* FeaturedChannelsItem.swift in Sources */,
 				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
+				F8DC2840280D639300F60271 /* NewNoteworthyItem.swift in Sources */,
 				F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */,
 				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
 				F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */,
@@ -362,6 +369,7 @@
 				F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */,
 				F8BC41092805310E00CA4B20 /* CatchUpOnTheNewsRow.swift in Sources */,
 				F8BC4117280531CC00CA4B20 /* TopEpisodesRow.swift in Sources */,
+				F8DC283E280D600100F60271 /* FeaturedItem.swift in Sources */,
 				F8BC4114280531A400CA4B20 /* FindYourNewFavouriteRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
