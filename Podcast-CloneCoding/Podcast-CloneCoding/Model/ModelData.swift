@@ -23,7 +23,7 @@ final class ModelData: ObservableObject {
     ]
     
     @Published var featuredChannels: [FeaturedChannel] = [
-        FeaturedChannel(thumbnail: "FeaturedChannelsImage1", detail: "정신과 의사들의 진짜 정신과 이야기"),
+        FeaturedChannel(thumbnail: "featuredChannelsImage1", detail: "정신과 의사들의 진짜 정신과 이야기"),
         FeaturedChannel(thumbnail: "featuredChannelsImage2", detail: """
                                                                 어른이 되면 복잡한 문제도 알아서 척척 해결할 줄 알았다!
                                                                 그런데, 막상 세상에 나와 보니 모든 게 내 마음처럼 풀리지 않는다?!
