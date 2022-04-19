@@ -35,4 +35,16 @@ final class ModelData: ObservableObject {
         TopShow(thumbnail: "topShowImage3", title: "송은이&김숙 비밀보장", caster: "컨텐츠랩비보"),
         TopShow(thumbnail: "topShowImage4", title: "[듣똑라]듣다보면 똑똑해지는 라이프", caster: "듣똑라")
     ]
+    
+    @Published var topEpisodes: [TopEpisode] = [
+        TopEpisode(thumbnail: "topepisodeImage1", title: "357회 - *맹신주의* 게으른자들의 위한 자기관리 교본 옥주현의 일침!", date: "수", time: "1시간 39분"),
+        TopEpisode(thumbnail: "topepisodeImage2", title: "4/18(월) 중국의 수소, 원전 에너지 정책이 우리에게 줄 영향", date: "월", time: "39분"),
+        TopEpisode(thumbnail: "topepisodeImage3", title: "4/17(일) 손에 잡히는 경제 주간 하이라이트", date: "월", time: "42분"),
+        TopEpisode(thumbnail: "topepisodeImage4", title: "커피타임 - 안승찬의 또 미국 이야기 '트레이더 조스'", date: "금", time: "58"),
+        TopEpisode(thumbnail: "topepisodeImage2", title: "4/15(금) 서울시 용도지역제 개편 계획, 기대와 우려, - 코로나와 전쟁이 끝난다고 공급난이 풀릴까?", date: "수", time: "39"),
+        TopEpisode(thumbnail: "topepisodeImage3", title: "456c. 스판덱스 영웅전: 배트맨(1/2) / 홍성갑", date: "토", time: "1시간 3분"),
+        TopEpisode(thumbnail: "topepisodeImage4", title: "39]인터뷰/문명특급 밍키PD가 말하는 '초대장 없이 살아남는 법'", date: "수", time: "41분"),
+        TopEpisode(thumbnail: "topepisodeImage1", title: "356회 - (경) 비보 7주년 (축) 개국공신 김수용x담배녀 본체 등판", date: "4월 6일", time: "1시간 44분"),
+        TopEpisode(thumbnail: "topepisodeImage2", title: "[오늘아침 라이브] 김한진, 김영익 바사가 말하는 '위기의 시대, 우리의 투자'", date: "오늘", time: "1시간 39분")
+    ]
 }
