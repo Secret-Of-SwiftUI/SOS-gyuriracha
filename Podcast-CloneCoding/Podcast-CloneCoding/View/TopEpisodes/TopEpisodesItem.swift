@@ -18,6 +18,7 @@ struct TopEpisodesItem: View {
     
     var body: some View {
         VStack {
+            Spacer()
             HStack {
                 Image(topEpisode.thumbnail)
                     .resizable()
@@ -26,14 +27,15 @@ struct TopEpisodesItem: View {
                     .cornerRadius(5)
                     .overlay(RoundedRectangle(cornerRadius: 5)
                         .stroke(Color.secondary, lineWidth: 0.2))
-                Spacer()
+                Spacer(minLength: 15)
                 Text("\(index)")
                     .font(.headline)
-                Spacer()
+                Spacer(minLength: 15)
                 VStack(alignment: .leading) {
                     Text(topEpisode.title)
                         .font(.body )
                         .lineLimit(2)
+                        .frame(height: 45)
                     HStack {
                         Text(topEpisode.date + "요일 ∙ " + topEpisode.time)
                             .font(.caption)
@@ -49,9 +51,10 @@ struct TopEpisodesItem: View {
                 }
                 Spacer()
             }
+            Spacer()
             Divider()
         }
-        .frame(width: 320, height: 100)
+        .frame(width: 340, height: 100)
     }
 }
 
