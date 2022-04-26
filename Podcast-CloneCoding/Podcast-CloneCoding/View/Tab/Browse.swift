@@ -35,7 +35,7 @@ struct Browse: View {
                         .frame(height: 415)
                     TopShowsRow(topShows: modelData.topShows)
                         .frame(height: 300)
-                    TopEpisodesRow()
+                    TopEpisodesRow(topEpisodes: modelData.topEpisodes)
                     FindYourNewFavouriteRow()
                     SubscribeFavoritesRow()
                     KidsCornerRow()

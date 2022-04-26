@@ -10,6 +10,9 @@
 		F85BED802803222C00F3202A /* Podcast_CloneCodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85BED7F2803222C00F3202A /* Podcast_CloneCodingApp.swift */; };
 		F85BED842803222F00F3202A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85BED832803222F00F3202A /* Assets.xcassets */; };
 		F85BED872803222F00F3202A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85BED862803222F00F3202A /* Preview Assets.xcassets */; };
+		F8940C102817E46000CA16E3 /* FirstMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940C0F2817E46000CA16E3 /* FirstMenu.swift */; };
+		F8940C122817E4B700CA16E3 /* SecondMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940C112817E4B700CA16E3 /* SecondMenu.swift */; };
+		F8940C142817E4D700CA16E3 /* ThrdMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940C132817E4D700CA16E3 /* ThrdMenu.swift */; };
 		F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40F128048F5F00CA4B20 /* Browse.swift */; };
 		F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */; };
 		F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */; };
@@ -44,6 +47,9 @@
 		F85BED7F2803222C00F3202A /* Podcast_CloneCodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast_CloneCodingApp.swift; sourceTree = "<group>"; };
 		F85BED832803222F00F3202A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85BED862803222F00F3202A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8940C0F2817E46000CA16E3 /* FirstMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMenu.swift; sourceTree = "<group>"; };
+		F8940C112817E4B700CA16E3 /* SecondMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenu.swift; sourceTree = "<group>"; };
+		F8940C132817E4D700CA16E3 /* ThrdMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrdMenu.swift; sourceTree = "<group>"; };
 		F8BC40F128048F5F00CA4B20 /* Browse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browse.swift; sourceTree = "<group>"; };
 		F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsQuickLinksRow.swift; sourceTree = "<group>"; };
 		F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseByCategoryRow.swift; sourceTree = "<group>"; };
@@ -219,6 +225,9 @@
 			children = (
 				F8BC4116280531CC00CA4B20 /* TopEpisodesRow.swift */,
 				F8C6DFE0280EA91300604EB7 /* TopEpisodesItem.swift */,
+				F8940C132817E4D700CA16E3 /* ThrdMenu.swift */,
+				F8940C0F2817E46000CA16E3 /* FirstMenu.swift */,
+				F8940C112817E4B700CA16E3 /* SecondMenu.swift */,
 			);
 			path = TopEpisodes;
 			sourceTree = "<group>";
@@ -367,12 +376,14 @@
 				F8BC41112805314900CA4B20 /* SubscribeFavoritesRow.swift in Sources */,
 				F8DC2840280D639300F60271 /* NewNoteworthyItem.swift in Sources */,
 				F8BC41232805321900CA4B20 /* FeaturedRow.swift in Sources */,
+				F8940C142817E4D700CA16E3 /* ThrdMenu.swift in Sources */,
 				F8BC4103280530EB00CA4B20 /* ArtRow.swift in Sources */,
 				F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */,
 				F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */,
 				F8DC2846280DCD8800F60271 /* TopShowsItem.swift in Sources */,
 				F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */,
 				F8DC2842280DCBF500F60271 /* TopShow.swift in Sources */,
+				F8940C102817E46000CA16E3 /* FirstMenu.swift in Sources */,
 				F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */,
 				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
 				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
@@ -382,6 +393,7 @@
 				F8BC41282805347500CA4B20 /* PodcastTab.swift in Sources */,
 				F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */,
 				F8BC41092805310E00CA4B20 /* CatchUpOnTheNewsRow.swift in Sources */,
+				F8940C122817E4B700CA16E3 /* SecondMenu.swift in Sources */,
 				F8C6DFE3280EA94300604EB7 /* TopEpisode.swift in Sources */,
 				F8C6DFE1280EA91300604EB7 /* TopEpisodesItem.swift in Sources */,
 				F8BC4117280531CC00CA4B20 /* TopEpisodesRow.swift in Sources */,

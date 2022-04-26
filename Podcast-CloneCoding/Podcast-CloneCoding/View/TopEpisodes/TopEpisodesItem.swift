@@ -43,8 +43,12 @@ struct TopEpisodesItem: View {
                     }
                 }
                 Spacer()
-                Button {
-                    print("touch TopEpisodesItem `ellipsis`")
+                Menu {
+                    ThrdMenu()
+                    Divider()
+                    SecondMenu()
+                    Divider()
+                    FirstMenu()
                 } label: {
                     Image(systemName: "ellipsis")
                         .foregroundColor(.secondary)
