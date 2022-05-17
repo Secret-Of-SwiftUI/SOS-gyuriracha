@@ -13,6 +13,9 @@
 		F8940C102817E46000CA16E3 /* FirstMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940C0F2817E46000CA16E3 /* FirstMenu.swift */; };
 		F8940C122817E4B700CA16E3 /* SecondMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940C112817E4B700CA16E3 /* SecondMenu.swift */; };
 		F8940C142817E4D700CA16E3 /* ThrdMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8940C132817E4D700CA16E3 /* ThrdMenu.swift */; };
+		F8AC58BD2833881D00ABCD7E /* ListenNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC58BC2833881D00ABCD7E /* ListenNow.swift */; };
+		F8AC58BF2833882600ABCD7E /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC58BE2833882600ABCD7E /* Library.swift */; };
+		F8AC58C12833882D00ABCD7E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AC58C02833882D00ABCD7E /* Search.swift */; };
 		F8BC40F228048F5F00CA4B20 /* Browse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40F128048F5F00CA4B20 /* Browse.swift */; };
 		F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */; };
 		F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */; };
@@ -50,6 +53,9 @@
 		F8940C0F2817E46000CA16E3 /* FirstMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMenu.swift; sourceTree = "<group>"; };
 		F8940C112817E4B700CA16E3 /* SecondMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMenu.swift; sourceTree = "<group>"; };
 		F8940C132817E4D700CA16E3 /* ThrdMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrdMenu.swift; sourceTree = "<group>"; };
+		F8AC58BC2833881D00ABCD7E /* ListenNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNow.swift; sourceTree = "<group>"; };
+		F8AC58BE2833882600ABCD7E /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F8AC58C02833882D00ABCD7E /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		F8BC40F128048F5F00CA4B20 /* Browse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browse.swift; sourceTree = "<group>"; };
 		F8BC40FC280530A900CA4B20 /* PodcastsQuickLinksRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsQuickLinksRow.swift; sourceTree = "<group>"; };
 		F8BC40FF280530E000CA4B20 /* BrowseByCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseByCategoryRow.swift; sourceTree = "<group>"; };
@@ -264,6 +270,9 @@
 			children = (
 				F8BC41272805347500CA4B20 /* PodcastTab.swift */,
 				F8BC40F128048F5F00CA4B20 /* Browse.swift */,
+				F8AC58BC2833881D00ABCD7E /* ListenNow.swift */,
+				F8AC58BE2833882600ABCD7E /* Library.swift */,
+				F8AC58C02833882D00ABCD7E /* Search.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -381,12 +390,15 @@
 				F8BC40FD280530A900CA4B20 /* PodcastsQuickLinksRow.swift in Sources */,
 				F8BC411A280531D800CA4B20 /* TopShowsRow.swift in Sources */,
 				F8DC2846280DCD8800F60271 /* TopShowsItem.swift in Sources */,
+				F8AC58BD2833881D00ABCD7E /* ListenNow.swift in Sources */,
 				F8BC4120280531F800CA4B20 /* FeaturedChannelsRow.swift in Sources */,
 				F8DC2842280DCBF500F60271 /* TopShow.swift in Sources */,
 				F8940C102817E46000CA16E3 /* FirstMenu.swift in Sources */,
 				F8BC413028055FCF00CA4B20 /* Featured.swift in Sources */,
 				F8BC4100280530E000CA4B20 /* BrowseByCategoryRow.swift in Sources */,
 				F8BC410E2805312E00CA4B20 /* KidsCornerRow.swift in Sources */,
+				F8AC58BF2833882600ABCD7E /* Library.swift in Sources */,
+				F8AC58C12833882D00ABCD7E /* Search.swift in Sources */,
 				F85BED802803222C00F3202A /* Podcast_CloneCodingApp.swift in Sources */,
 				F8BC4137280587A900CA4B20 /* FeaturedChannels.swift in Sources */,
 				F8BC41332805753E00CA4B20 /* NewNoteworthyRow.swift in Sources */,
