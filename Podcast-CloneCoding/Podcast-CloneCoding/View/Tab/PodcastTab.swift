@@ -33,22 +33,26 @@ struct PodcastTab: View {
     var body: some View {
         
         TabView(selection: $selection) {
-            Browse()
+            ListenNow()
                 .tabItem {
                     Label("ListenNow", systemImage: "play.circle.fill")
                 }
+                .tag(Tab.ListenNow)
             Browse()
                 .tabItem {
                     Label("Browse", systemImage: "square.grid.2x2.fill")
                 }
-            Browse()
+                .tag(Tab.Browse)
+            Library()
                 .tabItem {
                     Label("Library", systemImage: "square.stack.fill")
                 }
-            Browse()
+                .tag(Tab.Library)
+            Search()
                 .tabItem {
                     Label("Search", systemImage: "magnifyingglass")
                 }
+                .tag(Tab.Search)
         }
         // TODO: - tint 사용하기
 //        .tint(Color(red: 0.416, green: 0.161, blue: 0.812))
