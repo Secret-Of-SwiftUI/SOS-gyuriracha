@@ -33,7 +33,11 @@ struct NewNoteworthyRow: View {
                 HStack(alignment: .top, spacing: 12) {
                     Spacer()
                     ForEach(newNoteworthys) { newNoteworthy in
-                        NewNoteworthyItem(newNoteworthy: newNoteworthy)
+                        NavigationLink {
+                            NewNoteworthyDetail()
+                        } label: {
+                            NewNoteworthyItem(newNoteworthy: newNoteworthy)
+                        }
                     }
                     Spacer()
                 }
