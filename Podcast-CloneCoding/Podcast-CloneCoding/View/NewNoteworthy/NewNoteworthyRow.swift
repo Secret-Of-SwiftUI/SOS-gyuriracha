@@ -33,7 +33,29 @@ struct NewNoteworthyRow: View {
                 HStack(alignment: .top, spacing: 12) {
                     Spacer()
                     ForEach(newNoteworthys) { newNoteworthy in
-                        NewNoteworthyItem(newNoteworthy: newNoteworthy)
+                        // TODO: - link to NewNoteworthyDetail view.
+//                        NavigationLink {
+//                            NewNoteworthyDetail()
+//                        } label: {
+                            NewNoteworthyItem(newNoteworthy: newNoteworthy)
+//                        }
+                            .contextMenu {
+                                Button(action: {}) {
+                                    Label("Follow Show", systemImage: "plus.circle")
+                                }
+                                Button(action: {}) {
+                                    Label("Go to Show", systemImage: "airplayaudio")
+                                }
+                                Button(action: {}) {
+                                    Label("Share Show", systemImage: "square.and.arrow.up")
+                                }
+                                Button(action: {}) {
+                                    Label("Copy Link", systemImage: "link")
+                                }
+                                Button(action: {}) {
+                                    Label("Report a Concern", systemImage: "exclamationmark.bubble")
+                                }
+                            }
                     }
                     Spacer()
                 }
