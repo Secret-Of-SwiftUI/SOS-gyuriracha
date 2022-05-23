@@ -27,6 +27,7 @@ struct NewNoteworthyItem: View {
                     .stroke(Color.secondary, lineWidth: 0.2))
             Text(newNoteworthy.title)
                 .font(.subheadline)
+                .foregroundColor(.black)
                 .lineLimit(1)
             Text(newNoteworthy.caster)
                 .font(.subheadline)
@@ -34,6 +35,7 @@ struct NewNoteworthyItem: View {
                 .lineLimit(1) 
         }
         .frame(width: 160, height: 210, alignment: .topLeading)
+        .background(Color.white)
     }
 }
 
