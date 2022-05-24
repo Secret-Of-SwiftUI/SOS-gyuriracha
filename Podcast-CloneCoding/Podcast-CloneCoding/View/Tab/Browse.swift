@@ -46,7 +46,6 @@ struct Browse: View {
 //                    PodcastsQuickLinksRow()
                 }
             }
-            .listStyle(.inset)
             .navigationTitle("Browse")
         }
     }
