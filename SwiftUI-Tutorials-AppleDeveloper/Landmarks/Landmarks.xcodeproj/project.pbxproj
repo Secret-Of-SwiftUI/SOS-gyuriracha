@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F827C9CA28875088008C9267 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9C928875088008C9267 /* PageViewController.swift */; };
 		F83CE99627BB8999005AAA9D /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CE99527BB8999005AAA9D /* LandmarksApp.swift */; };
 		F83CE99827BB8999005AAA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CE99727BB8999005AAA9D /* ContentView.swift */; };
 		F83CE99A27BB899A005AAA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83CE99927BB899A005AAA9D /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F827C9C928875088008C9267 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F83CE99227BB8999005AAA9D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83CE99527BB8999005AAA9D /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		F83CE99727BB8999005AAA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F827C9CB2887509D008C9267 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				F827C9C928875088008C9267 /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		F83CE98927BB8999005AAA9D = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				F83CE99727BB8999005AAA9D /* ContentView.swift */,
+				F827C9CB2887509D008C9267 /* PageView */,
 				F842C5AC27C385FE00273B45 /* Badges */,
 				F83CE9B827BBBF05005AAA9D /* Landmarks */,
 				F853037B27C4965700E0F361 /* Hikes */,
@@ -310,6 +321,7 @@
 				F8AD5FF327C4D78F00738264 /* ProfileSummary.swift in Sources */,
 				F842C5A327C34E7600273B45 /* HexagonParameters.swift in Sources */,
 				F8AD5FF127C4D66800738264 /* ProfileHost.swift in Sources */,
+				F827C9CA28875088008C9267 /* PageViewController.swift in Sources */,
 				F853037A27C493F700E0F361 /* Hike.swift in Sources */,
 				F842C5A927C37E3300273B45 /* RotatedBadgeSymbol.swift in Sources */,
 				F842C5A727C3784100273B45 /* BadgeSymbol.swift in Sources */,
