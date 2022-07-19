@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F827C9CA28875088008C9267 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9C928875088008C9267 /* PageViewController.swift */; };
 		F827C9CD288752FB008C9267 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9CC288752FB008C9267 /* FeatureCard.swift */; };
+		F827C9CF28875438008C9267 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9CE28875438008C9267 /* PageView.swift */; };
 		F83CE99627BB8999005AAA9D /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CE99527BB8999005AAA9D /* LandmarksApp.swift */; };
 		F83CE99827BB8999005AAA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CE99727BB8999005AAA9D /* ContentView.swift */; };
 		F83CE99A27BB899A005AAA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83CE99927BB899A005AAA9D /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		F827C9C928875088008C9267 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F827C9CC288752FB008C9267 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		F827C9CE28875438008C9267 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		F83CE99227BB8999005AAA9D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83CE99527BB8999005AAA9D /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		F83CE99727BB8999005AAA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				F827C9C928875088008C9267 /* PageViewController.swift */,
 				F827C9CC288752FB008C9267 /* FeatureCard.swift */,
+				F827C9CE28875438008C9267 /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				F8AD5FF127C4D66800738264 /* ProfileHost.swift in Sources */,
 				F827C9CA28875088008C9267 /* PageViewController.swift in Sources */,
 				F853037A27C493F700E0F361 /* Hike.swift in Sources */,
+				F827C9CF28875438008C9267 /* PageView.swift in Sources */,
 				F842C5A927C37E3300273B45 /* RotatedBadgeSymbol.swift in Sources */,
 				F842C5A727C3784100273B45 /* BadgeSymbol.swift in Sources */,
 				F8AD5FF727C4F03D00738264 /* ProfileEditor.swift in Sources */,
