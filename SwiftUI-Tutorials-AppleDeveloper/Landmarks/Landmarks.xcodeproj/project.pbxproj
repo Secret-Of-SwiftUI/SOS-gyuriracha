@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F827C9CA28875088008C9267 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9C928875088008C9267 /* PageViewController.swift */; };
+		F827C9CD288752FB008C9267 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9CC288752FB008C9267 /* FeatureCard.swift */; };
 		F83CE99627BB8999005AAA9D /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CE99527BB8999005AAA9D /* LandmarksApp.swift */; };
 		F83CE99827BB8999005AAA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83CE99727BB8999005AAA9D /* ContentView.swift */; };
 		F83CE99A27BB899A005AAA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83CE99927BB899A005AAA9D /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		F827C9C928875088008C9267 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F827C9CC288752FB008C9267 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		F83CE99227BB8999005AAA9D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83CE99527BB8999005AAA9D /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		F83CE99727BB8999005AAA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F827C9C928875088008C9267 /* PageViewController.swift */,
+				F827C9CC288752FB008C9267 /* FeatureCard.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				F8AD5FEE27C4D2F100738264 /* Profile.swift in Sources */,
 				F83CE99827BB8999005AAA9D /* ContentView.swift in Sources */,
 				F8AD5FE727C4ADB900738264 /* CategoryHome.swift in Sources */,
+				F827C9CD288752FB008C9267 /* FeatureCard.swift in Sources */,
 				F853038127C4965700E0F361 /* HikeGraph.swift in Sources */,
 				F842C5AB27C37F4700273B45 /* Badge.swift in Sources */,
 				F83CE9A627BB954E005AAA9D /* MapView.swift in Sources */,
