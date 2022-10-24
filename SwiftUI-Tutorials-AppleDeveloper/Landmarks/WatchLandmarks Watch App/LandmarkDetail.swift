@@ -16,8 +16,30 @@ struct LandmarkDetail: View {
     }
 
     var body: some View {
-        CircleImage(image: landmark.image.resizable())
-            .scaledToFill()
+        ScrollView {
+            VStack {
+                CircleImage(image: landmark.image.resizable())
+                    .scaledToFill()
+                
+                Text(landmark.name)
+                    .font(.headline)
+                    .lineLimit(0)
+                
+                Toggle(isOn: $modelData.landmarks[landmarkIndex].isFavorite) {
+                    Text("Favorite")
+                }
+                
+                Divider()
+                
+                Text(landmark.park)
+                    .font(.caption)
+                    .bold()
+                    .lineLimit(0)
+                
+                Text(landmark.state)
+                    .font(.caption)
+            }
+        }
     }
 }
 
