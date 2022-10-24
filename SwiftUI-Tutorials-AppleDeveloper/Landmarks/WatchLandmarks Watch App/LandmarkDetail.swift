@@ -24,7 +24,14 @@ struct LandmarkDetail: View {
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         let modelData = ModelData()
-        return LandmarkDetail(landmark: modelData.landmarks[0])
-            .environmentObject(modelData)
+        return Group {
+                   LandmarkDetail(landmark: modelData.landmarks[0])
+                       .environmentObject(modelData)
+                       .previewDevice("Apple Watch Ultra (49mm)")
+
+                   LandmarkDetail(landmark: modelData.landmarks[1])
+                       .environmentObject(modelData)
+                       .previewDevice("Apple Watch Series 5 (40mm)")
+               }
     }
 }
