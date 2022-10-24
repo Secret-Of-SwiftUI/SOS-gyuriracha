@@ -19,7 +19,7 @@ struct LandmarkDetail: View {
         ScrollView {
             VStack {
                 CircleImage(image: landmark.image.resizable())
-                    .scaledToFill()
+                    .scaledToFit()
                 
                 Text(landmark.name)
                     .font(.headline)
@@ -39,6 +39,7 @@ struct LandmarkDetail: View {
                 Text(landmark.state)
                     .font(.caption)
             }
+            .padding(16)
         }
     }
 }
