@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80F1EA62907EEE9004DFC3B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F1EA52907EEE9004DFC3B /* NotificationView.swift */; };
 		F827C9CA28875088008C9267 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9C928875088008C9267 /* PageViewController.swift */; };
 		F827C9CD288752FB008C9267 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9CC288752FB008C9267 /* FeatureCard.swift */; };
 		F827C9CF28875438008C9267 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827C9CE28875438008C9267 /* PageView.swift */; };
@@ -75,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F80F1EA52907EEE9004DFC3B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		F827C9C928875088008C9267 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F827C9CC288752FB008C9267 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		F827C9CE28875438008C9267 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 				F861E2F02906C18900578BDF /* ContentView.swift */,
 				F861E2F22906C18900578BDF /* Assets.xcassets */,
 				F861E2F42906C18900578BDF /* Preview Content */,
+				F80F1EA52907EEE9004DFC3B /* NotificationView.swift */,
 			);
 			path = "WatchLandmarks Watch App";
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				F861E3222906C35B00578BDF /* LandmarkRow.swift in Sources */,
 				F861E31A2906C35B00578BDF /* Landmark.swift in Sources */,
 				F861E3212906C35B00578BDF /* LandmarkList.swift in Sources */,
+				F80F1EA62907EEE9004DFC3B /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
